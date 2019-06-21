@@ -34,7 +34,7 @@ function myMap(){
 
 
 
-
+// test
 
 
 //TODO: [function for information window]
