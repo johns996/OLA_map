@@ -1,8 +1,4 @@
 //* Nicholas Potyok | Start:[06/18/19]
-<<<<<<< HEAD
-=======
-
->>>>>>> 68c3fd40f743625226ebe24e0e0e6653c324b151
 //Legend 
 //* [Titles]
 //? [Design ideas]
@@ -36,13 +32,6 @@ function myMap(){
     
 }
 
-
-
-<<<<<<< HEAD
-// test
-
-=======
->>>>>>> 68c3fd40f743625226ebe24e0e0e6653c324b151
 
 //TODO: [function for information window]
 //TODO: [point tags with information bubble]
