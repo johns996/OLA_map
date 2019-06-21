@@ -1,0 +1,41 @@
+{
+    "better-comments.tags": [
+            {
+                "tag": "!",
+                "color": "#FF2D00",
+                "strikethrough": false,
+                "backgroundColor": "transparent"
+            },
+            {
+                "tag": "?",
+                "color": "#3498DB",
+                "strikethrough": false,
+                "backgroundColor": "transparent"
+            },
+            {
+                "tag": "//",
+                "color": "#474747",
+                "strikethrough": true,
+                "backgroundColor": "transparent"
+            },
+            {
+                "tag": "todo",
+                "color": "#b0ff13",
+                "strikethrough": false,
+                "backgroundColor": "transparent"
+            },
+            {
+                "tag": "*",
+                "color": "#ebbf0b",
+                "strikethrough": false,
+                "backgroundColor": "transparent"
+            },
+            {
+                "tag": "Config",
+                "color": "#ff7b13",
+                "strikethrough": false,
+                "backgroundColor": "transparent"
+            }
+        ],
+        "better-comments.highlightPlainText": true
+}
