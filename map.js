@@ -35,6 +35,8 @@ function myMap(){
 
 
 
+
+
 //TODO: [function for information window]
 //TODO: [point tags with information bubble]
 //TODO: [legend with color coordination]
