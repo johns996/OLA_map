@@ -4,4 +4,16 @@
 /*? [Design ideas] 
 /*TODO [Notes to myself] 
 /*Config [properties that can altered] 
-/* color coordination can be seen when using the visual studio code exstension: better comments. 
+/* color coordination can be seen when using the visual studio code exstension: better comments. */
+
+
+
+body { 
+    background-color: orange;
+
+}
+
+#map {
+    height: 100%;
+
+}
