@@ -28,7 +28,7 @@ function myMap(){
     var geoParkCenter = new google.maps.LatLng(46.559252, -87.409189);
     
 
- /*  var marker = new google.maps.Marker({
+   var marker = new google.maps.Marker({
         position: rock,
         map: map,
         title: 'Rock example',
@@ -38,7 +38,7 @@ function myMap(){
         infowindow.open(map, marker);
     })
 
-    */
+
     
    
     //* [Default Map properties and controls]
