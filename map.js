@@ -164,7 +164,6 @@ for (var key in icons) {
 //TODO: [place if statement to close info window when another is open]
 //TODO: [have OLA area shapes only show up within a certain zoom threshold]
 //TODO: [Create a custom map style]
-//todo: change plant to herb.
 //todo: add 'other' label.
 //todo: add in the info window, and have the points auto update the info window on click.
 //todo: change the map back to satelite and add the labels for the points surrounding the OLA areas.
