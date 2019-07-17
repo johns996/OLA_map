@@ -12,7 +12,7 @@ function initMap(){
       var mapOptions= { 
         center:new google.maps.LatLng(46.559256,-87.409183),            //Config    [(Lat, Lon) is center of map]
         zoom:17.5,                                                      //Config    [Desired zoom]
-        mapTypeId: google.maps.MapTypeId.HYBRID,                        //Config    [Map type, options: (ROADMAP, SATELLITE, HYBRID, TERRAIN)]
+        mapTypeId: google.maps.MapTypeId.SATELLITE,                        //Config    [Map type, options: (ROADMAP, SATELLITE, HYBRID, TERRAIN)]
         streetViewControl: false,                                       //Config    [False removes the streetview control icon]
         mapTypeControl: false,                                          //Config    [False removes the maptype control icon]
     };
@@ -24,7 +24,7 @@ var icons = {
         icon: 'icons/Rockicon.png'
     },
     Plant: {    
-        name: 'Plant',
+        name: 'Herb',
         icon: 'icons/plantIcon.png'
     },
     Tree: {    
@@ -48,8 +48,8 @@ var icons = {
         strokeColor: "0000FF",                                          //Config    [border (color / opacity / thickness) values]
         strokeOpacity:0.8,                                              
         strokeWeight:2,
-        fillColor:"#9b45f7",                                            //Config    [fill (color / opacity) values]
-        fillOpacity:0.4
+        fillColor:"#8E6F45",                                            //Config    [fill (color / opacity) values]
+        fillOpacity:0.6
     });
             var npp = [
                 new google.maps.LatLng(46.559709, -87.408870),
@@ -65,8 +65,8 @@ var icons = {
         strokeColor: "0000FF",                                          //Config    [border (color / opacity / thickness) values]
         strokeOpacity:0.8,                                              
         strokeWeight:2,
-        fillColor:"#f2f745",                                            //Config    [fill (color / opacity) values]
-        fillOpacity:0.4
+        fillColor:"#397C37",                                            //Config    [fill (color / opacity) values]
+        fillOpacity:0.6
     });
             var ecoPark = [
                 new google.maps.LatLng(46.558527, -87.409090),
@@ -84,8 +84,8 @@ var icons = {
         strokeColor: "0000FF",                                          //Config    [border (color / opacity / thickness) values]
         strokeOpacity:0.8,                                              
         strokeWeight:2,
-        fillColor:"#FF9900",                                            //Config    [fill (color / opacity) values]
-        fillOpacity:0.4
+        fillColor:"#479DAC",                                            //Config    [fill (color / opacity) values]
+        fillOpacity:0.6
     });
         geoParkArea.setMap(map);
         ecoPark.setMap(map);
@@ -162,6 +162,13 @@ for (var key in icons) {
 //TODO: [function for information window content]
 //TODO: [Scale icon size to the level of zoom]
 //TODO: [place if statement to close info window when another is open]
-//TODO: [Remove all of the native google icons on the map]
 //TODO: [have OLA area shapes only show up within a certain zoom threshold]
 //TODO: [Create a custom map style]
+//todo: change plant to herb.
+//todo: add 'other' label.
+//todo: add in the info window, and have the points auto update the info window on click.
+//todo: change the map back to satelite and add the labels for the points surrounding the OLA areas.
+//todo: the info window points should have [common name, scientific name, and coordinates].
+//todo: build a GUI to allow people to easily add features to the map. Possibly, add additional features to the GUI.
+//todo: instead of haveing an info window appear highlight the selected marker and populate the ifrome with the information. 
+//todo: cut the eco park in half and lable the other half whitman woods. 
