@@ -4,7 +4,7 @@
 //? [Explanation]                                                   -->
 //TODO [Notes]                                                      -->
 //Config [properties to alter]                                      -->
-//>> View comment colors with VS code exstension: 'better comments' -->
+//   View comment colors with VS code exstension: 'better comments' -->
 
 
 function initMap(){
