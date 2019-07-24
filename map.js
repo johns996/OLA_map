@@ -144,6 +144,15 @@ var icons = {
             });
         }
     }
+    const frame = document.getElementById("frame");
+
+    function iframeContent () {
+
+        const frameWindow = frame.contentWindow;
+        const iframeDocument = frame.contentDocument;
+        
+
+    }
 //* Legend Content
 var legend = document.getElementById('legend');
 for (var key in icons) {
