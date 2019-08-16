@@ -119,9 +119,13 @@ var icons = {
         }
     ];
 
+    console.log (markers[2]);
+    console.log (markers[3]);
+    var infoWindow = new google.maps.InfoWindow();
     for(var i = 0;i < markers.length;i++){                              //? Loops through the array and calls addMarker() for each index
         addMarker(markers[i]);
       }
+     
 
     function addMarker(props){                                          //? Function to create markers
         var marker = new google.maps.Marker({
@@ -134,21 +138,24 @@ var icons = {
             marker.setIcon(props.iconImage);
         } 
         //check for info
-        if(props.content){
-           var infoWindow = new google.maps.InfoWindow({
-                content:props.content
-            });
-            marker.addListener('click', function(){
-             //   infoWindow.setContent(marker.info),
+ /*       if(props.content){
+//          var infoWindow = new google.maps.InfoWindow({
+//               content:props.content
+//           });
+//            marker.addListener('click', function(){
+*/
+    google.maps.event.addListener(marker, 'click', function(){
+                infoWindow.setContent(props.content);
                 infoWindow.open(map, marker);
             });
         }
-    }
+    
+//* Iframe Content
     const frame = document.getElementById("frame");
 
     function iframeContent () {
 
-        const frameWindow = frame.contentWindow;
+        const iframeWindow = frame.contentWindow;
         const iframeDocument = frame.contentDocument;
         
 
@@ -170,13 +177,9 @@ for (var key in icons) {
 
 //TODO: [function for information window content]
 //TODO: [Scale icon size to the level of zoom]
-//TODO: [place if statement to close info window when another is open]
 //TODO: [have OLA area shapes only show up within a certain zoom threshold]
-//TODO: [Create a custom map style]
 //todo: add 'other' label.
 //todo: add in the info window, and have the points auto update the info window on click.
-//todo: change the map back to satelite and add the labels for the points surrounding the OLA areas.
 //todo: the info window points should have [common name, scientific name, and coordinates].
-//todo: build a GUI to allow people to easily add features to the map. Possibly, add additional features to the GUI.
-//todo: instead of haveing an info window appear highlight the selected marker and populate the ifrome with the information. 
+//todo: instead of haveing an info window appear highlight the selected marker and populate the iframe with the information. 
 //todo: cut the eco park in half and lable the other half whitman woods. 
