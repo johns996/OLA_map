@@ -165,8 +165,8 @@ for (var key in icons) {
 //TODO: [have OLA area shapes only show up within a certain zoom threshold]
 //TODO: [Create a custom map style]
 //todo: add 'other' label.
-//todo: add in the info window, and have the points auto update the info window on click.
-//todo: change the map back to satelite and add the labels for the points surrounding the OLA areas.
+//todo: add in the iframe, and have the points auto update the iframe on click.
+//todo: add the labels for the points surrounding the OLA areas.
 //todo: the info window points should have [common name, scientific name, and coordinates].
 //todo: build a GUI to allow people to easily add features to the map. Possibly, add additional features to the GUI.
 //todo: instead of haveing an info window appear highlight the selected marker and populate the ifrome with the information. 
