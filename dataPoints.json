@@ -1,0 +1,182 @@
+"markers":{
+   {
+      id:1,
+      cords:[
+         46.559098,
+         -87.409177
+      ],
+      iconImage:"icons/Treeicon.png",
+      content:"<h1> This is a Tree </h1>"
+   },
+   {
+      id:2,
+      cords:[
+         46.559310,
+         -87.409395
+      ],
+      iconImage:"icons/Rockicon.png",
+      content:"<h1> This is a Rock </h1>"
+   },
+   {
+      id:3,
+      cords:[
+         46.560134,
+         -87.408707
+      ],
+      iconImage:"icons/plantIcon.png",
+      content:"<h1> This is a Plant </h1>"
+   },
+   {
+      id:4,
+      cords:[
+         46.558544,
+         -87.409713
+      ],
+      iconImage:"icons/Shrubicon.png",
+      content:"<h1> This is a Shrub </h1>"
+   },
+   {
+      id:5,
+      cords:[
+         46.560047,
+         -87.408422
+      ],
+      iconImage:"icons/Grassicon.png",
+      content:"<h1> This is Grass </h1>"
+   },
+   {
+      id:6,
+      cords:[
+         46.560047,
+         -87.408422
+      ],
+      iconImage:"icons/Grassicon.png",
+      content:"<h1> This is Grass </h1>"
+   },
+   {
+      id:7,
+      cords:[
+         46.560047,
+         -87.408422
+      ],
+      iconImage:"icons/Grassicon.png",
+      content:"<h1> This is Grass </h1>"
+   },
+   {
+      id:8,
+      cords:[
+         46.560047,
+         -87.408422
+      ],
+      iconImage:"icons/Grassicon.png",
+      content:"<h1> This is Grass </h1>"
+   },
+   {
+      id:9,
+      cords:[
+         46.560047,
+         -87.408422
+      ],
+      iconImage:"icons/Grassicon.png",
+      content:"<h1> This is Grass </h1>"
+   },
+   {
+      id:10,
+      cords:[
+         46.560047,
+         -87.408422
+      ],
+      iconImage:"icons/Grassicon.png",
+      content:"<h1> This is Grass </h1>"
+   },
+   {
+      id:11,
+      cords:[
+         46.560047,
+         -87.408422
+      ],
+      iconImage:"icons/Grassicon.png",
+      content:"<h1> This is Grass </h1>"
+   },
+   {
+      id:12,
+      cords:[
+         46.560047,
+         -87.408422
+      ],
+      iconImage:"icons/Grassicon.png",
+      content:"<h1> This is Grass </h1>"
+   },
+   {
+      id:13,
+      cords:[
+         46.560047,
+         -87.408422
+      ],
+      iconImage:"icons/Grassicon.png",
+      content:"<h1> This is Grass </h1>"
+   },
+   {
+      id:14,
+      cords:[
+         46.560047,
+         -87.408422
+      ],
+      iconImage:"icons/Grassicon.png",
+      content:"<h1> This is Grass </h1>"
+   },
+   {
+      id:15,
+      cords:[
+         46.560047,
+         -87.408422
+      ],
+      iconImage:"icons/Grassicon.png",
+      content:"<h1> This is Grass </h1>"
+   },
+   {
+      id:16,
+      cords:[
+         46.560047,
+         -87.408422
+      ],
+      iconImage:"icons/Grassicon.png",
+      content:"<h1> This is Grass </h1>"
+   },
+   {
+      id:17,
+      cords:[
+         46.560047,
+         -87.408422
+      ],
+      iconImage:"icons/Grassicon.png",
+      content:"<h1> This is Grass </h1>"
+   },
+   {
+      id:18,
+      cords:[
+         46.560047,
+         -87.408422
+      ],
+      iconImage:"icons/Grassicon.png",
+      content:"<h1> This is Grass </h1>"
+   },
+   {
+      id:19,
+      cords:[
+         46.560047,
+         -87.408422
+      ],
+      iconImage:"icons/Grassicon.png",
+      content:"<h1> This is Grass </h1>"
+   },
+   {
+      id:20,
+      cords:[
+         46.560047,
+         -87.408422
+      ],
+      iconImage:"icons/Grassicon.png",
+      content:"<h1> This is Grass </h1>"
+   },
+}
