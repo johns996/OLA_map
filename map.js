@@ -11,8 +11,8 @@ function initMap(){
 //* [Map properties]
       var mapOptions= { 
         center:new google.maps.LatLng(46.559256,-87.409183),            //Config    [(Lat, Lon) is center of map]
-        zoom:17.5,                                                      //Config    [Desired zoom]
-        mapTypeId: google.maps.MapTypeId.SATELLITE,                        //Config    [Map type, options: (ROADMAP, SATELLITE, HYBRID, TERRAIN)]
+        zoom:17.9,                                                      //Config    [Desired zoom]
+        mapTypeId: google.maps.MapTypeId.SATELLITE,                     //Config    [Map type, options: (ROADMAP, SATELLITE, HYBRID, TERRAIN)]
         streetViewControl: false,                                       //Config    [False removes the streetview control icon]
         mapTypeControl: false,                                          //Config    [False removes the maptype control icon]
     };
@@ -38,6 +38,10 @@ var icons = {
     Grass: {    
         name: 'Grass',
         icon: 'icons/Grassicon.png'
+    },
+    Info: {
+        name: 'Info',
+        icon: 'icons/InfoIcon.png'
     }
 };
 //* [Geopark overlay properties]
@@ -175,12 +179,23 @@ var icons = {
             content:'<h1> This is Grass </h1>'
         }
     ];
-
     var infoWindow = new google.maps.InfoWindow();
-    for(var i = 0;i < markers.length;i++){                              //? Loops through the array and calls addMarker() for each index
+
+    let request = new Request("./dataPoints.json");
+    fetch(request)
+        .then(function(resp) {
+                return resp.json();
+        })
+        .then(function(data) {
+            console.log(data)
+            for(var i = 0;i < data.markers.length;i++){                             
+                addMarker(data.markers[i]);
+              }
+        });
+ /*   for(var i = 0;i < markers.length;i++){                              //? Loops through the array and calls addMarker() for each index
         addMarker(markers[i]);
       }
-     
+*/     
 
     function addMarker(props){                                          //? Function to create markers
         var marker = new google.maps.Marker({
@@ -230,11 +245,6 @@ for (var key in icons) {
 
 }
 
-//TODO: [function for information window content]
-//TODO: [Scale icon size to the level of zoom]
-//TODO: [have OLA area shapes only show up within a certain zoom threshold]
-//todo: add 'other' label.
-//todo: add in the info window, and have the points auto update the info window on click.
+//TODO: [function for Iframe window content]
 //todo: the info window points should have [common name, scientific name, and coordinates].
-//todo: instead of haveing an info window appear highlight the selected marker and populate the iframe with the information. 
-//todo: cut the eco park in half and lable the other half whitman woods. 
+ 

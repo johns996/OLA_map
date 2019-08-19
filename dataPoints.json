@@ -1,182 +1,124 @@
-"markers":{
-   {
-      id:1,
-      cords:[
-         46.559098,
-         -87.409177
-      ],
-      iconImage:"icons/Treeicon.png",
-      content:"<h1> This is a Tree </h1>"
-   },
-   {
-      id:2,
-      cords:[
-         46.559310,
-         -87.409395
-      ],
-      iconImage:"icons/Rockicon.png",
-      content:"<h1> This is a Rock </h1>"
-   },
-   {
-      id:3,
-      cords:[
-         46.560134,
-         -87.408707
-      ],
-      iconImage:"icons/plantIcon.png",
-      content:"<h1> This is a Plant </h1>"
-   },
-   {
-      id:4,
-      cords:[
-         46.558544,
-         -87.409713
-      ],
-      iconImage:"icons/Shrubicon.png",
-      content:"<h1> This is a Shrub </h1>"
-   },
-   {
-      id:5,
-      cords:[
-         46.560047,
-         -87.408422
-      ],
-      iconImage:"icons/Grassicon.png",
-      content:"<h1> This is Grass </h1>"
-   },
-   {
-      id:6,
-      cords:[
-         46.560047,
-         -87.408422
-      ],
-      iconImage:"icons/Grassicon.png",
-      content:"<h1> This is Grass </h1>"
-   },
-   {
-      id:7,
-      cords:[
-         46.560047,
-         -87.408422
-      ],
-      iconImage:"icons/Grassicon.png",
-      content:"<h1> This is Grass </h1>"
-   },
-   {
-      id:8,
-      cords:[
-         46.560047,
-         -87.408422
-      ],
-      iconImage:"icons/Grassicon.png",
-      content:"<h1> This is Grass </h1>"
-   },
-   {
-      id:9,
-      cords:[
-         46.560047,
-         -87.408422
-      ],
-      iconImage:"icons/Grassicon.png",
-      content:"<h1> This is Grass </h1>"
-   },
-   {
-      id:10,
-      cords:[
-         46.560047,
-         -87.408422
-      ],
-      iconImage:"icons/Grassicon.png",
-      content:"<h1> This is Grass </h1>"
-   },
-   {
-      id:11,
-      cords:[
-         46.560047,
-         -87.408422
-      ],
-      iconImage:"icons/Grassicon.png",
-      content:"<h1> This is Grass </h1>"
-   },
-   {
-      id:12,
-      cords:[
-         46.560047,
-         -87.408422
-      ],
-      iconImage:"icons/Grassicon.png",
-      content:"<h1> This is Grass </h1>"
-   },
-   {
-      id:13,
-      cords:[
-         46.560047,
-         -87.408422
-      ],
-      iconImage:"icons/Grassicon.png",
-      content:"<h1> This is Grass </h1>"
-   },
-   {
-      id:14,
-      cords:[
-         46.560047,
-         -87.408422
-      ],
-      iconImage:"icons/Grassicon.png",
-      content:"<h1> This is Grass </h1>"
-   },
-   {
-      id:15,
-      cords:[
-         46.560047,
-         -87.408422
-      ],
-      iconImage:"icons/Grassicon.png",
-      content:"<h1> This is Grass </h1>"
-   },
-   {
-      id:16,
-      cords:[
-         46.560047,
-         -87.408422
-      ],
-      iconImage:"icons/Grassicon.png",
-      content:"<h1> This is Grass </h1>"
-   },
-   {
-      id:17,
-      cords:[
-         46.560047,
-         -87.408422
-      ],
-      iconImage:"icons/Grassicon.png",
-      content:"<h1> This is Grass </h1>"
-   },
-   {
-      id:18,
-      cords:[
-         46.560047,
-         -87.408422
-      ],
-      iconImage:"icons/Grassicon.png",
-      content:"<h1> This is Grass </h1>"
-   },
-   {
-      id:19,
-      cords:[
-         46.560047,
-         -87.408422
-      ],
-      iconImage:"icons/Grassicon.png",
-      content:"<h1> This is Grass </h1>"
-   },
-   {
-      id:20,
-      cords:[
-         46.560047,
-         -87.408422
-      ],
-      iconImage:"icons/Grassicon.png",
-      content:"<h1> This is Grass </h1>"
-   },
+{
+   "markers": [
+      {
+         "id":0,
+         "cords":{"lat":46.55923139739369,"lng":-87.40934014279628},
+         "iconImage":"icons/Rockicon.png",
+         "content":"<h1> This is a Tree </h1>"
+      },
+      {
+         "id":1,
+         "cords":{"lat":46.55929578838773,"lng":-87.40896742329525},
+         "iconImage":"icons/Rockicon.png",
+         "content":"<h1> This is a Rock </h1>"
+      },
+      {
+         "id":2,
+         "cords":{"lat":46.560134,"lng":-87.408707},
+         "iconImage":"icons/plantIcon.png",
+         "content":"<h1> This is a Plant </h1>"
+      },
+      {
+         "id":3,
+         "cords":{"lat":46.55916840292705,"lng":-87.40921552187035},
+         "iconImage":"icons/Rockicon.png",
+         "content":"<h1> This is a Shrub </h1>"
+      },
+      {
+         "id":4,
+         "cords":{"lat":46.56008073894297,"lng":-87.40892092351453},
+         "iconImage":"icons/Shrubicon.png",
+         "content":"<h1> 4 </h1>"
+      },
+      {
+         "id":5,
+         "cords":{"lat":46.558645811469496,"lng":-87.4093859386323},
+         "iconImage":"icons/Shrubicon.png",
+         "content":"<h1> 5 </h1>"
+      },
+      {
+         "id":6,
+         "cords":{"lat":46.56035104759001,"lng":-87.40903449071693},
+         "iconImage":"icons/plantIcon.png",
+         "content":"<h1> 6 </h1>"
+      },
+      {
+         "id":7,
+         "cords":{"lat":46.55844107990561,"lng":-87.40948723707209},
+         "iconImage":"icons/plantIcon.png",
+         "content":"<h1> 7 </h1>"
+      },
+      {
+         "id":8,
+         "cords":{"lat":46.560047,"lng":-87.408422},
+         "iconImage":"icons/Grassicon.png",
+         "content":"<h1> 8 </h1>"
+      },
+      {
+         "id":9,
+         "cords":{"lat":46.56051556488893,"lng":-87.40886874972846},
+         "iconImage":"icons/plantIcon.png",
+         "content":"<h1> 9 </h1>"
+      },
+      {
+         "id":10,
+         "cords":{"lat":46.55911112885274,"lng":-87.40907192230225},
+         "iconImage":"icons/plantIcon.png",
+         "content":"<h1> 10  </h1>"
+      },
+      {
+         "id":11,
+         "cords":{"lat":46.55833651622478,"lng":-87.40979611873627},
+         "iconImage":"icons/Grassicon.png",
+         "content":"<h1> 11 </h1>"
+      },
+      {
+         "id":12,
+         "cords":{"lat":46.558557835246866,"lng":-87.40973711013794},
+         "iconImage":"icons/Grassicon.png",
+         "content":"<h1> 12 </h1>"
+      },
+      {
+         "id":13,
+         "cords":{"lat":46.56022876472742,"lng":-87.40877687931061},
+         "iconImage":"icons/Shrubicon.png",
+         "content":"<h1> 13 </h1>"
+      },
+      {
+         "id":14,
+         "cords":{"lat":46.55992261593563,"lng":-87.4089378118515},
+         "iconImage":"icons/Treeicon.png",
+         "content":"<h1> 14 </h1>"
+      },
+      {
+         "id":15,
+         "cords":{"lat":46.56021862127103,"lng":-87.40902230143546},
+         "iconImage":"icons/InfoIcon.png",
+         "content":"<h1> 15 </h1>"
+      },
+      {
+         "id":16,
+         "cords":{"lat":46.55932506753445,"lng":-87.40917921066284},
+         "iconImage":"icons/Rockicon.png",
+         "content":"<h1> 16 </h1>"
+      },
+      {
+         "id":17,
+         "cords":{"lat":46.55910375164176,"lng":-87.40919530391693},
+         "iconImage":"icons/Rockicon.png",
+         "content":"<h1> 17 </h1>"
+      },
+      {
+         "id":18,
+         "cords":{"lat":46.56005540357554,"lng":-87.40866422653198},
+         "iconImage":"icons/Treeicon.png",
+         "content":"<h1> 18 </h1>"
+      },
+      {
+         "id":19,
+         "cords":{"lat":46.56023983031404,"lng":-87.40855693817139},
+         "iconImage":"icons/Treeicon.png",
+         "content":"<h1> 19 </h1>"
+      }
+   ]
 }
