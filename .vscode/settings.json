@@ -37,5 +37,6 @@
                 "backgroundColor": "transparent"
             }
         ],
-        "better-comments.highlightPlainText": true
+        "better-comments.highlightPlainText": true,
+        "liveServer.settings.port": 5501
 }
