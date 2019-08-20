@@ -11,7 +11,7 @@ function initMap(){
 //* [Map properties]
       var mapOptions= { 
         center:new google.maps.LatLng(46.559256,-87.409183),            //Config    [(Lat, Lon) is center of map]
-        zoom:17.9,                                                      //Config    [Desired zoom]
+        zoom:17.5,                                                      //Config    [Desired zoom]
         mapTypeId: google.maps.MapTypeId.SATELLITE,                     //Config    [Map type, options: (ROADMAP, SATELLITE, HYBRID, TERRAIN)]
         streetViewControl: false,                                       //Config    [False removes the streetview control icon]
         mapTypeControl: false,                                          //Config    [False removes the maptype control icon]
