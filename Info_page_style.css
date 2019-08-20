@@ -1,0 +1,51 @@
+/** Nicholas Potyok | Start:[06/18/19]
+/* Legend 
+/** [Titles] 
+/*? [Design ideas] 
+/*TODO [Notes to myself] 
+/*Config [properties that can altered] 
+/* color coordination can be seen when using the visual studio code exstension: better comments. */
+
+body { 
+    background-color: rgb(237, 243, 238);
+    margin: 0;
+
+}
+
+.top-bar {
+    background-color: #065540;
+    width: 100%;
+    display: block;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    box-sizing: border-box;
+    float: none;
+    padding: 8px ;
+
+    
+}
+
+.title {
+    font-size: 18px;
+    padding: 14px 16px;
+}
+
+.name {
+    font-size: 11px;
+}
+
+.content {
+    font-size: 13px;
+
+}
+
+.picture {
+    height: auto;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

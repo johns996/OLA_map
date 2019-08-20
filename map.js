@@ -53,7 +53,7 @@ var icons = {
         strokeOpacity:0.8,                                              
         strokeWeight:2,
         fillColor:"#13a8bf",                                           //Config    [fill (color / opacity) values]
-        fillOpacity:0.4
+        fillOpacity:0.3
     });
 
 //* [NativePlantPark overlay properties]
@@ -103,7 +103,7 @@ var icons = {
         strokeOpacity:0.8,                                              
         strokeWeight:2,
         fillColor:"#397C37",                                           //Config    [fill (color / opacity) values]
-        fillOpacity:0.4
+        fillOpacity:0.3
     });
 
 //* [Ecopark overlay properties]
@@ -127,7 +127,7 @@ var icons = {
         strokeOpacity:0.8,                                              
         strokeWeight:2,
         fillColor:"#927646",                                           //Config    [fill (color / opacity) values]
-        fillOpacity:0.4
+        fillOpacity:0.3
     });
 
 //* [whitman woods overlay properties]
@@ -144,7 +144,7 @@ var icons = {
         strokeOpacity:0.8,                                              
         strokeWeight:2,
         fillColor:"#12b090",                                            //Config    [fill (color / opacity) values]
-        fillOpacity:0.4
+        fillOpacity:0.3
     });
         geoParkArea.setMap(map);
         ecoPark.setMap(map);
@@ -152,7 +152,7 @@ var icons = {
         whitmanWoods.setMap(map);
 
 //* [Array that holds all the markers]
-    var markers = [                                                     //Config    [add new markers to this array]
+    /* var markers = [                                                     //Config    [add new markers to this array]
         {
             cords:{lat:46.559098,lng:-87.409177},
             iconImage: 'icons/Treeicon.png',
@@ -179,6 +179,7 @@ var icons = {
             content:'<h1> This is Grass </h1>'
         }
     ];
+    */
     var infoWindow = new google.maps.InfoWindow();
 
     let request = new Request("./dataPoints.json");
@@ -217,6 +218,9 @@ var icons = {
     google.maps.event.addListener(marker, 'click', function(){
                 infoWindow.setContent(props.content);
                 infoWindow.open(map, marker);
+                console.log(marker.id);
+                //Todo add function that reloads the iframe with the correct content for the clicked  marker.
+               // document.getElementById('iframeid').src = document.getElementById('iframeid').src
             });
         }
     
@@ -227,7 +231,6 @@ var icons = {
 
         const iframeWindow = frame.contentWindow;
         const iframeDocument = frame.contentDocument;
-        
 
     }
 //* Legend Content
