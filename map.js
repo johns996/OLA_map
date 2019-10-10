@@ -249,12 +249,7 @@ for (var key in icons) {
 }
 
 //TODO: [function for information window content]
-//TODO: [Scale icon size to the level of zoom]
-//TODO: [place if statement to close info window when another is open]
-//TODO: [have OLA area shapes only show up within a certain zoom threshold]
-//TODO: [Create a custom map style]
-//todo: add 'other' label.
 //todo: add in the iframe, and have the points auto update the iframe on click.
-//todo: add the labels for the points surrounding the OLA areas.
 //todo: the info window points should have [common name, scientific name, and coordinates].
+//todo: decide the best way to update the info window. 
  
