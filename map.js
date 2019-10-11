@@ -8,7 +8,7 @@
 
 
 function initMap(){
-//* [Map properties]
+//* [Map properties] --------------------------------------------------------------------
       var mapOptions= { 
         center:new google.maps.LatLng(46.559256,-87.409183),            //Config    [(Lat, Lon) is center of map]
         zoom:17.5,                                                      //Config    [Desired zoom]
@@ -17,7 +17,8 @@ function initMap(){
         mapTypeControl: false,                                          //Config    [False removes the maptype control icon]
     };
     var map = new google.maps.Map(document.getElementById('map'), mapOptions);      //? [creates new map]
-//* icons
+
+//* array of icon types --------------------------------------------------------------------
 var icons = {
     Rock: {    
         name: 'Rock',
@@ -44,7 +45,7 @@ var icons = {
         icon: 'icons/InfoIcon.png'
     }
 };
-//* [Geopark overlay properties]
+//* [Geopark overlay properties] --------------------------------------------------------------------
     var geoParkCenter = new google.maps.LatLng(46.559252, -87.409189);
     var geoParkArea = new google.maps.Circle({
         center:geoParkCenter,                                           //Config    [central point of the circle]
@@ -56,7 +57,7 @@ var icons = {
         fillOpacity:0.3
     });
 
-//* [NativePlantPark overlay properties]
+//* [NativePlantPark overlay properties] --------------------------------------------------------------------
             var npp = [
                 new google.maps.LatLng(46.560570147130846, -87.40958642477705),
                 new google.maps.LatLng(46.56063654019907, -87.40900706762983),
@@ -106,7 +107,7 @@ var icons = {
         fillOpacity:0.3
     });
 
-//* [Ecopark overlay properties]
+//* [Ecopark overlay properties] --------------------------------------------------------------------
             var ecoPark = [
                 new google.maps.LatLng(46.55850635400759, -87.40913643411955),
                 new google.maps.LatLng(46.558375406904354, -87.40946098141035),
@@ -130,7 +131,7 @@ var icons = {
         fillOpacity:0.3
     });
 
-//* [whitman woods overlay properties]
+//* [whitman woods overlay properties] --------------------------------------------------------------------
             var whitmanWoods = [
                 new google.maps.LatLng(46.55870720572343, -87.41025710807355),
                 new google.maps.LatLng(46.55914430693679, -87.4102651547006),
@@ -151,8 +152,9 @@ var icons = {
         nativePlantPark.setMap(map);
         whitmanWoods.setMap(map);
 
-//* [Array that holds all the markers]
-    /* var markers = [                                                     //Config    [add new markers to this array]
+//* [Array that holds all the markers] ----------------------------------
+    //Replaced by dataPoints.json file
+/* var markers = [                                                     //Config    [add new markers to this array]
         {
             cords:{lat:46.559098,lng:-87.409177},
             iconImage: 'icons/Treeicon.png',
@@ -180,60 +182,63 @@ var icons = {
         }
     ];
     */
-    var infoWindow = new google.maps.InfoWindow();
+    var infoWindow = new google.maps.InfoWindow();                          //? Creates an info window object.
 
-    let request = new Request("./dataPoints.json");
+//*  Importing dataPoints.json -------------------------------------------
+    let request = new Request("./dataPoints.json");                         //? this requests dataPoints.json.
     fetch(request)
-        .then(function(resp) {
+        .then(function(resp) {                                              //? returns a response that is parsed as JSON data.
                 return resp.json();
         })
-        .then(function(data) {
+        .then(function(data) {                                              //? Loops through JSON data and places a marker on the map for each JSON element.
             console.log(data)
             for(var i = 0;i < data.markers.length;i++){                             
                 addMarker(data.markers[i]);
               }
         });
- /*   for(var i = 0;i < markers.length;i++){                              //? Loops through the array and calls addMarker() for each index
-        addMarker(markers[i]);
-      }
-*/     
-
-    function addMarker(props){                                          //? Function to create markers
+  
+//*  Marker functionality ----------------------------------------------------
+    function addMarker(props){                                          //? takes the argument "props" which will hold the unique properties of each marker being created
         var marker = new google.maps.Marker({
             position: props.cords,
             map: map
         });
         //Checks for definition of custom icon
-        if(props.iconImage){
+        if(props.iconImage){                                            //? checks to see if an image exists in the marker properties
             //set icon image
             marker.setIcon(props.iconImage);
-        } 
-        //check for info
- /*       if(props.content){
+        }  
+ /*   
+  check for info
+//    if(props.content){
 //          var infoWindow = new google.maps.InfoWindow({
 //               content:props.content
 //           });
 //            marker.addListener('click', function(){
 */
-    google.maps.event.addListener(marker, 'click', function(){
-                infoWindow.setContent(props.content);
-                infoWindow.open(map, marker);
+    google.maps.event.addListener(marker, 'click', function(){          //? event to listen for a click on a marker
+                infoWindow.setContent(props.content);                   //? on-click set the content of the info-window
+                infoWindow.open(map, marker);                           //? then open it
                 console.log(marker.id);
-                //Todo add function that reloads the iframe with the correct content for the clicked  marker.
-               // document.getElementById('iframeid').src = document.getElementById('iframeid').src
+
+                
+
             });
         }
     
-//* Iframe Content
-    const frame = document.getElementById("frame");
+//* Iframe Content --------------------------------------------------------------------
 
-    function iframeContent () {
+//Todo function that reloads the iframe with the correct content for the clicked  marker.
+               // document.getElementById('iframeid').src = document.getElementById('iframeid').src
+    const frame = document.getElementById("frame");                     //? Calling for the iframe object by its id
+
+    function iframeContent () {                                         //? refreshes the iframes content depending on the marker that is clicked
 
         const iframeWindow = frame.contentWindow;
         const iframeDocument = frame.contentDocument;
 
     }
-//* Legend Content
+//* Legend Content --------------------------------------------------------------------
 var legend = document.getElementById('legend');
 for (var key in icons) {
   var type = icons[key];
@@ -248,8 +253,7 @@ for (var key in icons) {
 
 }
 
-//TODO: [function for information window content]
-//todo: add in the iframe, and have the points auto update the iframe on click.
+//todo: refresh the iframe content on click. 
 //todo: the info window points should have [common name, scientific name, and coordinates].
 //todo: decide the best way to update the info window. 
  
