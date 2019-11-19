@@ -8,7 +8,7 @@
 
 
 function initMap(){
-//* [Map properties] --------------------------------------------------------------------
+//* [Map properties] ---------------------------------------------------------------------------------------------
       var mapOptions= { 
         center:new google.maps.LatLng(46.559256,-87.409183),            //Config    [(Lat, Lon) is center of map]
         zoom:17.5,                                                      //Config    [Desired zoom]
@@ -18,7 +18,7 @@ function initMap(){
     };
     var map = new google.maps.Map(document.getElementById('map'), mapOptions);      //? [creates new map]
 
-//* array of icon types --------------------------------------------------------------------
+//* array of icon types -----------------------------------------------------------------------------------------
 var icons = {
     Rock: {    
         name: 'Rock',
@@ -45,7 +45,7 @@ var icons = {
         icon: 'icons/InfoIcon.png'
     }
 };
-//* [Geopark overlay properties] --------------------------------------------------------------------
+//* [Geopark overlay properties] ------------------------------------------------------------------------------
     var geoParkCenter = new google.maps.LatLng(46.559252, -87.409189);
     var geoParkArea = new google.maps.Circle({
         center:geoParkCenter,                                           //Config    [central point of the circle]
@@ -197,7 +197,7 @@ var icons = {
               }
         });
   
-//*  Marker functionality ----------------------------------------------------
+//*  Marker functionality -----------------------------------------------
     function addMarker(props){                                          //? takes the argument "props" which will hold the unique properties of each marker being created
         var marker = new google.maps.Marker({
             position: props.cords,
@@ -226,7 +226,7 @@ var icons = {
             });
         }
     
-//* Iframe Content --------------------------------------------------------------------
+//* Iframe Content -----------------------------------------------------
 
 //Todo function that reloads the iframe with the correct content for the clicked  marker.
                // document.getElementById('iframeid').src = document.getElementById('iframeid').src
@@ -238,7 +238,7 @@ var icons = {
         const iframeDocument = frame.contentDocument;
 
     }
-//* Legend Content --------------------------------------------------------------------
+//* Legend Content -----------------------------------------------------
 var legend = document.getElementById('legend');
 for (var key in icons) {
   var type = icons[key];
