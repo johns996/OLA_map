@@ -5,4 +5,4 @@ icon colors
     Grass: #2f577a (Alt: 4E6172) (Alt: #446582)
     Rock: #707065
     info: #DBCA69, #bfae4b, #c4b039, #493829
-    
+    Dani e; Gaechte
