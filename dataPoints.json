@@ -2,75 +2,75 @@
    "markers": [
       {
          "id":0,
-         "cords":{"lat":46.55923139739369,"lng":-87.40934014279628},
+         "cords":{"lat":46.559384,"lng":-87.409078},
          "iconImage":"icons/Rockicon.png",
-         "content":"<h1> This is a Tree </h1>"
+         "content":"<h1> A </h1>"
       },
       {
          "id":1,
-         "cords":{"lat":46.55929578838773,"lng":-87.40896742329525},
+         "cords":{"lat":46.559353,"lng":-87.409153},
          "iconImage":"icons/Rockicon.png",
-         "content":"<h1> This is a Rock </h1>"
+         "content":"<h1> B </h1>"
       },
       {
          "id":2,
-         "cords":{"lat":46.560134,"lng":-87.408707},
-         "iconImage":"icons/plantIcon.png",
-         "content":"<h1> This is a Plant </h1>"
+         "cords":{"lat":46.559340,"lng":-87.409230},
+         "iconImage":"icons/Rockicon.png",
+         "content":"<h1> C </h1>"
       },
       {
          "id":3,
-         "cords":{"lat":46.55916840292705,"lng":-87.40921552187035},
+         "cords":{"lat":46.559320,"lng":-87.409390},
          "iconImage":"icons/Rockicon.png",
-         "content":"<h1> This is a Shrub </h1>"
+         "content":"<h1> D </h1>"
       },
       {
          "id":4,
-         "cords":{"lat":46.56008073894297,"lng":-87.40892092351453},
-         "iconImage":"icons/Shrubicon.png",
-         "content":"<h1> 4 </h1>"
+         "cords":{"lat":46.559274,"lng":-87.409406},
+         "iconImage":"icons/Rockicon.png",
+         "content":"<h1> E </h1>"
       },
       {
          "id":5,
-         "cords":{"lat":46.558645811469496,"lng":-87.4093859386323},
-         "iconImage":"icons/Shrubicon.png",
-         "content":"<h1> 5 </h1>"
+         "cords":{"lat":46.559230,"lng": -87.409350},
+         "iconImage":"icons/Rockicon.png",
+         "content":"<h1> Kona Dolomite </h1>"
       },
       {
          "id":6,
-         "cords":{"lat":46.56035104759001,"lng":-87.40903449071693},
-         "iconImage":"icons/plantIcon.png",
-         "content":"<h1> 6 </h1>"
+         "cords":{"lat":46.559233,"lng":-87.409249},
+         "iconImage":"icons/Rockicon.png",
+         "content":"<h1> G </h1>"
       },
       {
          "id":7,
-         "cords":{"lat":46.55844107990561,"lng":-87.40948723707209},
-         "iconImage":"icons/plantIcon.png",
-         "content":"<h1> 7 </h1>"
+         "cords":{"lat":46.559159,"lng":-87.409243},
+         "iconImage":"icons/Rockicon.png",
+         "content":"<h1> H </h1>"
       },
       {
          "id":8,
-         "cords":{"lat":46.560047,"lng":-87.408422},
-         "iconImage":"icons/Grassicon.png",
-         "content":"<h1> 8 </h1>"
+         "cords":{"lat":46.559163,"lng":-87.409170},
+         "iconImage":"icons/Rockicon.png",
+         "content":"<h1> Banded Iron Formation </h1>"
       },
       {
          "id":9,
-         "cords":{"lat":46.56051556488893,"lng":-87.40886874972846},
-         "iconImage":"icons/plantIcon.png",
-         "content":"<h1> 9 </h1>"
+         "cords":{"lat":46.559192,"lng":-87.409062},
+         "iconImage":"icons/Rockicon.png",
+         "content":"<h1> J </h1>"
       },
       {
          "id":10,
-         "cords":{"lat":46.55911112885274,"lng":-87.40907192230225},
-         "iconImage":"icons/plantIcon.png",
-         "content":"<h1> 10  </h1>"
+         "cords":{"lat":46.559160,"lng":-87.408984},
+         "iconImage":"icons/Rockicon.png",
+         "content":"<h1> K  </h1>"
       },
       {
          "id":11,
-         "cords":{"lat":46.55833651622478,"lng":-87.40979611873627},
-         "iconImage":"icons/Grassicon.png",
-         "content":"<h1> 11 </h1>"
+         "cords":{"lat":46.559221,"lng":-87.409146},
+         "iconImage":"icons/Rockicon.png",
+         "content":"<h1> Jacobsville Sandstone Pathway </h1>"
       },
       {
          "id":12,
@@ -94,19 +94,19 @@
          "id":15,
          "cords":{"lat":46.56021862127103,"lng":-87.40902230143546},
          "iconImage":"icons/InfoIcon.png",
-         "content":"<h1> 15 </h1>"
+         "content":"<h1> OLA Pavilion </h1>"
       },
       {
          "id":16,
-         "cords":{"lat":46.55932506753445,"lng":-87.40917921066284},
-         "iconImage":"icons/Rockicon.png",
-         "content":"<h1> 16 </h1>"
+         "cords":{"lat":46.560084,"lng":-87.408823},
+         "iconImage":"icons/InfoIcon.png",
+         "content":"<h1> OLA Maintenance Shed </h1>"
       },
       {
          "id":17,
-         "cords":{"lat":46.55910375164176,"lng":-87.40919530391693},
-         "iconImage":"icons/Rockicon.png",
-         "content":"<h1> 17 </h1>"
+         "cords":{"lat":46.560538,"lng":-87.408912},
+         "iconImage":"icons/InfoIcon.png",
+         "content":"<h1> Groundwater monitoring well </h1>"
       },
       {
          "id":18,
