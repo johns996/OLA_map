@@ -22,7 +22,7 @@ function initMap(){
 var icons = {
     Rock: {    
         name: 'Rock',
-        icon: 'icons/Rockicon.png'
+        icon: 'icons/rockIcon.png'
     },
     Plant: {    
         name: 'Herb',
@@ -30,19 +30,19 @@ var icons = {
     },
     Tree: {    
         name: 'Tree',
-        icon: 'icons/Treeicon.png'
+        icon: 'icons/treeIcon.png'
     },
     Shrub: {    
         name: 'Shrub',
-        icon: 'icons/Shrubicon.png'
+        icon: 'icons/shrubIcon.png'
     },
     Grass: {    
         name: 'Grass',
-        icon: 'icons/Grassicon.png'
+        icon: 'icons/grassIcon.png'
     },
     Info: {
         name: 'Info',
-        icon: 'icons/InfoIcon.png'
+        icon: 'icons/infoIcon.png'
     }
 };
 //* [Geopark overlay properties] ------------------------------------------------------------------------------
