@@ -11,7 +11,7 @@ function initMap(){
 //* [Map properties] ---------------------------------------------------------------------------------------------
       var mapOptions= { 
         center:new google.maps.LatLng(46.559389,-87.409198),            //Config    [(Lat, Lon) is center of map]
-        zoom:18,                                                      //Config    [Desired zoom]
+        zoom:18,                                                        //Config    [Desired zoom]
         mapTypeId: google.maps.MapTypeId.SATELLITE,                     //Config    [Map type, options: (ROADMAP, SATELLITE, HYBRID, TERRAIN)]
         streetViewControl: false,                                       //Config    [False removes the streetview control icon]
         mapTypeControl: false,                                          //Config    [False removes the maptype control icon]
@@ -53,7 +53,7 @@ var icons = {
         strokeColor: "0000FF",                                          //Config    [border (color / opacity / thickness) values]
         strokeOpacity:0.8,                                              
         strokeWeight:2,
-        fillColor:"#13a8bf",                                           //Config    [fill (color / opacity) values]
+        fillColor:"#13a8bf",                                            //Config    [fill (color / opacity) values]
         fillOpacity:0.3
     });
 
@@ -103,7 +103,7 @@ var icons = {
         strokeColor: "0000FF",                                          //Config    [border (color / opacity / thickness) values]
         strokeOpacity:0.8,                                              
         strokeWeight:2,
-        fillColor:"#397C37",                                           //Config    [fill (color / opacity) values]
+        fillColor:"#397C37",                                            //Config    [fill (color / opacity) values]
         fillOpacity:0.3
     });
 
@@ -201,7 +201,8 @@ var icons = {
     function addMarker(props){                                          //? takes the argument "props" which will hold the unique properties of each marker being created
         var marker = new google.maps.Marker({
             position: props.cords,
-            map: map
+            map: map,
+            title: props.id
         });
         //Checks for definition of custom icon
         if(props.iconImage){                                            //? checks to see if an image exists in the marker properties
@@ -219,7 +220,8 @@ var icons = {
     google.maps.event.addListener(marker, 'click', function(){          //? event to listen for a click on a marker
                 infoWindow.setContent(props.content);                   //? on-click set the content of the info-window
                 infoWindow.open(map, marker);                           //? then open it
-                console.log(marker.id);
+                iframeContent(marker.id)
+                console.log(marker.title);
 
                 
 
@@ -230,9 +232,9 @@ var icons = {
 
 //Todo function that reloads the iframe with the correct content for the clicked  marker.
                // document.getElementById('iframeid').src = document.getElementById('iframeid').src
-    const frame = document.getElementById("frame");                     //? Calling for the iframe object by its id
+    const frame = document.getElementById("frame");                     //? Calling the iframe object by its id
 
-    function iframeContent () {                                         //? refreshes the iframes content depending on the marker that is clicked
+    function iframeContent (marker) {                                         //? refreshes the iframes content depending on the marker that is clicked
 
         const iframeWindow = frame.contentWindow;
         const iframeDocument = frame.contentDocument;
