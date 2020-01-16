@@ -220,7 +220,7 @@ var icons = {
     google.maps.event.addListener(marker, 'click', function(){          //? event to listen for a click on a marker
                 infoWindow.setContent(props.content);                   //? on-click set the content of the info-window
                 infoWindow.open(map, marker);                           //? then open it
-                iframeContent(marker.id)
+                iframeContent(marker.title)
                 console.log(marker.title);
 
                 
