@@ -152,42 +152,13 @@ var icons = {
         nativePlantPark.setMap(map);
         whitmanWoods.setMap(map);
 
-//* [Array that holds all the markers] ----------------------------------
-    //Replaced by dataPoints.json file
-/* var markers = [                                                     //Config    [add new markers to this array]
-        {
-            cords:{lat:46.559098,lng:-87.409177},
-            iconImage: 'icons/Treeicon.png',
-            content:'<h1> This is a Tree </h1>'
-        },
-        {
-            cords:{lat:46.559310,lng:-87.409395},
-            iconImage: 'icons/Rockicon.png',
-            content:'<h1> This is a Rock </h1>'
-        },
-        {
-            cords:{lat:46.560134,lng:-87.408707},
-            iconImage: 'icons/plantIcon.png',
-            content:'<h1> This is a Plant </h1>'
-        },
-        {
-            cords:{lat:46.558544,lng:-87.409713},
-            iconImage: 'icons/Shrubicon.png',
-            content:'<h1> This is a Shrub </h1>'
-        },
-        {
-            cords:{lat:46.560047,lng:-87.408422},
-            iconImage: 'icons/Grassicon.png',
-            content:'<h1> This is Grass </h1>'
-        }
-    ];
-    */
     var infoWindow = new google.maps.InfoWindow();                          //? Creates an info window object.
 
 //*  Importing dataPoints.json -------------------------------------------
     let request = new Request("./dataPoints.json");                         //? this requests dataPoints.json.
     fetch(request)
-        .then(function(resp) {                                              //? returns a response that is parsed as JSON data.
+        .then(function(resp) {       
+                console.log(resp)                                       //? returns a response that is parsed as JSON data.
                 return resp.json();
         })
         .then(function(data) {                                              //? Loops through JSON data and places a marker on the map for each JSON element.
