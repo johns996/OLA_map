@@ -261,24 +261,24 @@ require([
 		}]
 		});		
 		
-		var featureLayer3 = new FeatureLayer("http://services3.arcgis.com/h3X16BFnTKCNcAAj/arcgis/rest/services/PATH_FINAL/FeatureServer/0",{
+		var featureLayer3 = new FeatureLayer("https://services3.arcgis.com/h3X16BFnTKCNcAAj/arcgis/rest/services/PATH_FINAL/FeatureServer/0",{
 			mode: FeatureLayer.MODE_ONDEMAND,
 			outFields: ["*"],
 		});
 		
-		var featureLayer = new FeatureLayer("http://services3.arcgis.com/h3X16BFnTKCNcAAj/arcgis/rest/services/plants5/FeatureServer/0",{
+		var featureLayer = new FeatureLayer("https://services3.arcgis.com/h3X16BFnTKCNcAAj/arcgis/rest/services/plants5/FeatureServer/0",{
 			mode: FeatureLayer.MODE_ONDEMAND,
 			outFields: ["*"],
 			infoTemplate: template
 		});
 		
-		var featureLayer2 = new FeatureLayer("http://services3.arcgis.com/h3X16BFnTKCNcAAj/arcgis/rest/services/OLA_FINAL/FeatureServer/0", {
+		var featureLayer2 = new FeatureLayer("https://services3.arcgis.com/h3X16BFnTKCNcAAj/arcgis/rest/services/OLA_FINAL/FeatureServer/0", {
 			mode: FeatureLayer.MODE_SNAPSHOT,
 			infoTemplate:template2,
 			outFields: ["*"]
 		});
 
-		var featureLayer4 = new FeatureLayer("http://services3.arcgis.com/h3X16BFnTKCNcAAj/arcgis/rest/services/rocks2/FeatureServer/0", {
+		var featureLayer4 = new FeatureLayer("https://services3.arcgis.com/h3X16BFnTKCNcAAj/arcgis/rest/services/rocks2/FeatureServer/0", {
 			mode: FeatureLayer.MODE_SNAPSHOT,
 			infoTemplate:template4,
 			outFields: ["*"]
