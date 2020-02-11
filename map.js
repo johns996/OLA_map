@@ -191,7 +191,7 @@ var icons = {
 */
 var content_string = '<div id="content">' +
 '<h1 id="title"> Compeau Creek Gneiss </h1>' + 
-'<img src="images/rocks/compeau_creek_gneiss.jpg">'+
+'<img src="images/herbs/p2_black_eyed_susan.jpg">'+
 '<script type="text/javascript" src="dataPoints.json>'+
 'var markerData = JSON.parse(dataPoints);'+
 'var image_src = '
