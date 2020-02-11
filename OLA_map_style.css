@@ -31,3 +31,8 @@ body {
     float: right;
     margin: 0;
 }
+
+.gm-style-iw {
+    width: 340px; 
+    min-height: 150px;
+  }
