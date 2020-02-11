@@ -173,7 +173,8 @@ var icons = {
         var marker = new google.maps.Marker({
             position: props.cords,
             map: map,
-            title: props.id
+            title: props.id,
+            image: props.markerImage
         });
         //Checks for definition of custom icon
         if(props.iconImage){                                            //? checks to see if an image exists in the marker properties
@@ -188,11 +189,21 @@ var icons = {
 //           });
 //            marker.addListener('click', function(){
 */
+var content_string = '<div id="content">' +
+'<h1 id="title"> Compeau Creek Gneiss </h1>' + 
+'<img src="images/rocks/compeau_creek_gneiss.jpg">'+
+'<script type="text/javascript" src="dataPoints.json>'+
+'var markerData = JSON.parse(dataPoints);'+
+'var image_src = '
+'</script>'+
+
     google.maps.event.addListener(marker, 'click', function(){          //? event to listen for a click on a marker
-                infoWindow.setContent(props.content);                   //? on-click set the content of the info-window
+               // infoWindow.setContent(props.content); 
+               //this is where I modify the content string with the marker data.  
+               infoWindow.setContent(content_string);                 //? on-click set the content of the info-window
                 infoWindow.open(map, marker);                           //? then open it
-                iframeContent(marker.title)
                 console.log(marker.title);
+                console.log(marker.image);
 
                 
 
