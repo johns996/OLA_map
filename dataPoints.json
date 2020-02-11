@@ -118,7 +118,7 @@
          "id":"19",
          "cords":{"lat":46.56023983031404,"lng":-87.40855693817139},
          "iconImage":"icons/treeIcon.png",
-         "content":"<h1> 19 </h1>"
+         "content":"<div id=\"bodyContent\"><h1>Hairy Vetch</h1><b>Scientific name:</b> Vicia villosa<br><br><b>Plant Type: </b>Flowering Plant<br><br><img src=\"/images/bals_fir.jpg\" style=\"width:300px; height:300px;\"><br><br><h3>Description:<\/h3> Vicia villosa, known as the hairy vetch, fodder vetch or winter vetch, is a plant native to some of Europe and western Asia. It is a legume, grown as a forage crop, fodder crop, cover crop, and green manure. Hairy vetch is a legume used primarily for soil improvement along roadsides and for bank stabilization. Well-nodulated hairy vetch can enrich the soil with 60 to 120 lb/acre of nitrogen through nitrogen fixation.<br><br><b>Link: </b><a href = \"https://plants.usda.gov/factsheet/pdf/fs_vivi.pdf\">https://plants.usda.gov/factsheet/pdf/fs_vivi.pdf</a></div>"
       }
    ]
 }
