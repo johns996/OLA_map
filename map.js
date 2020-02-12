@@ -21,27 +21,27 @@ function initMap(){
 var icons = {
     Rock: {    
         name: 'Rock',
-        icon: 'icons/rockIcon.png'
+        icon: 'https://www.nmu.edu/Webb/OLA_Map/icons/rockIcon.png'
     },
     Plant: {    
         name: 'Herb',
-        icon: 'icons/plantIcon.png'
+        icon: 'https://www.nmu.edu/Webb/OLA_Map/icons/plantIcon.png'
     },
     Tree: {    
         name: 'Tree',
-        icon: 'icons/treeIcon.png'
+        icon: 'https://www.nmu.edu/Webb/OLA_Map/icons/treeIcon.png'
     },
     Shrub: {    
         name: 'Shrub',
-        icon: 'icons/shrubIcon.png'
+        icon: 'https://www.nmu.edu/Webb/OLA_Map/icons/shrubIcon.png'
     },
     Grass: {    
         name: 'Grass',
-        icon: 'icons/grassIcon.png'
+        icon: 'https://www.nmu.edu/Webb/OLA_Map/icons/grassIcon.png'
     },
     Info: {
         name: 'Info',
-        icon: 'icons/infoIcon.png'
+        icon: 'https://www.nmu.edu/Webb/OLA_Map/icons/infoIcon.png'
     }
 };
 
@@ -157,7 +157,7 @@ var icons = {
     });                          //? Creates an info window object.
 
 //*  Importing dataPoints.json -------------------------------------------
-    let request = new Request("./dataPoints.json");                         //? this requests dataPoints.json.
+    let request = new Request("https://www.nmu.edu/Webb/OLA_Map/dataPoints.json");                         //? this requests dataPoints.json.
     fetch(request)
         .then(function(resp) {       
                 console.log(resp)                                       //? returns a response that is parsed as JSON data.
