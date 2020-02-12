@@ -6,7 +6,6 @@
 //Config [properties to alter]                                      -->
 //   View comment colors with VS code exstension: 'better comments' -->
 
-
 function initMap(){
 //* [Map properties] ---------------------------------------------------------------------------------------------
       var mapOptions= { 
@@ -45,6 +44,7 @@ var icons = {
         icon: 'icons/infoIcon.png'
     }
 };
+
 //* [Geopark overlay properties] ------------------------------------------------------------------------------
     var geoParkCenter = new google.maps.LatLng(46.559252, -87.409189);
     var geoParkArea = new google.maps.Circle({
@@ -152,7 +152,9 @@ var icons = {
         nativePlantPark.setMap(map);
         whitmanWoods.setMap(map);
 
-    var infoWindow = new google.maps.InfoWindow();                          //? Creates an info window object.
+    var infoWindow = new google.maps.InfoWindow({
+        maxWidth: 305
+    });                          //? Creates an info window object.
 
 //*  Importing dataPoints.json -------------------------------------------
     let request = new Request("./dataPoints.json");                         //? this requests dataPoints.json.
@@ -171,9 +173,14 @@ var icons = {
 //*  Marker functionality -----------------------------------------------
     function addMarker(props){                                          //? takes the argument "props" which will hold the unique properties of each marker being created
         var marker = new google.maps.Marker({
-            position: props.cords,
             map: map,
-            title: props.id
+            position: props.cords,
+            image: props.markerImage,
+            description: props.description,
+            age: props.age,
+            type: props.type,
+            name: props.name,
+            
         });
         //Checks for definition of custom icon
         if(props.iconImage){                                            //? checks to see if an image exists in the marker properties
@@ -188,29 +195,22 @@ var icons = {
 //           });
 //            marker.addListener('click', function(){
 */
-    google.maps.event.addListener(marker, 'click', function(){          //? event to listen for a click on a marker
-                infoWindow.setContent(props.content);                   //? on-click set the content of the info-window
+
+//*  Info_window_functionality -----------------------------------------------
+var content_string = '<div id="content">' +
+'<h1 id="title"> '+props.name+'</h1>' + 
+'<center><img id="markerImage" src="'+props.markerImage+'"></center>' +
+'<p id="property"><b>Type:</b> '+props.type+'</p>' +
+'<p id="property"><b>Description:</b> '+props.description+'</p>';
+//todo: offer a toggle option to choose which icons that are displayed on the map.
+
+    google.maps.event.addListener(marker, 'click', function(){           //? event to listen for a click on a marker  
+                infoWindow.setContent(content_string);                   //? on-click set the content of the info-window
                 infoWindow.open(map, marker);                           //? then open it
-                iframeContent(marker.title)
-                console.log(marker.title);
-
-                
-
+                console.log(marker.image);
             });
         }
     
-//* Iframe Content -----------------------------------------------------
-
-//Todo function that reloads the iframe with the correct content for the clicked  marker.
-               // document.getElementById('iframeid').src = document.getElementById('iframeid').src
-    const frame = document.getElementById("frame");                     //? Calling the iframe object by its id
-
-    function iframeContent (marker) {                                         //? refreshes the iframes content depending on the marker that is clicked
-
-        const iframeWindow = frame.contentWindow;
-        const iframeDocument = frame.contentDocument;
-
-    }
 //* Legend Content -----------------------------------------------------
 var legend = document.getElementById('legend');
 for (var key in icons) {
@@ -221,12 +221,6 @@ for (var key in icons) {
   div.innerHTML = '<img src="' + icon + '"> ' + name;
   legend.appendChild(div);
 }
-
     map.controls[google.maps.ControlPosition.LEFT_TOP].push(document.getElementById('legend'));
-
 }
-
-//todo: refresh the iframe content on click. 
-//todo: the info window points should have [common name, scientific name, and coordinates].
-//todo: decide the best way to update the info window. 
  
