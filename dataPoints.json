@@ -7,9 +7,8 @@
          "markerImage":"/images/rocks/compeau_creek_gneiss.jpg",
          "description":"Granitic parent material subjected to low-grade metamorphism. This specimen looks like a granite, but has been metamorphosed, as evidenced by parallel alignment of platy or needle shaped ferromagnesian minerals. Common bedrock of Marquette. Visible foliation.",
          "age":"More than 2.7 billion years old.",
-         "type":"Intrusive igneous (metamorphosed to gneiss)/Metamorphic, Foliated",
-         "name":"Compeau Creek Gneiss",
-         "content":""
+         "type":"Intrusive igneous (metamorphosed to gneiss)/Metamorphic, Foliated.",
+         "name":"Compeau Creek Gneiss"
       },
       {
          "id":"1",
@@ -19,8 +18,7 @@
          "description":"Deposited as an intrusive mafic igneous rock within the Earth.",
          "age":"Unknown",
          "type":"Intrusive igneous",
-         "name":"Gabbro",
-         "content":""
+         "name":"Gabbro"
       },
       {
          "id":"2",
@@ -30,19 +28,17 @@
          "description":"From the Linberg quarry located between Marquette and Negaunee. Interlaminated beds of quartzite and carbonate. Originally deposited in a mid-depth to shallow sea environment as a chemical sedimentary deposit. Some specimens are often interbedded with slate and/or stromatolites.",
          "age":"Approximately 2.2 billion years old.",
          "type":"Sedimentary/Metamorphic - banded",
-         "name":"Kona Dolomite",
-         "content":""
+         "name":"Kona Dolomite"
       },
       {
          "id":"3",
          "cords":{"lat":46.559320,"lng":-87.409390},
          "iconImage":"icons/rockIcon.png",
-         "markerImage":"/images/rocks/red_granite",
+         "markerImage":"/images/rocks/red_granite.jpg",
          "description":"Iron rich deposit. Specimen contains some orthoclase feldspar, which gives the specimen its pink color.  Smoky quartz crystals are visible and common within this specimen.",
          "age":"Unknown",
          "type":"Intrusive, igneous, felsic",
-         "name":"Red Granite",
-         "content":""
+         "name":"Red Granite"
       },
       {
          "id":"4",
@@ -52,8 +48,7 @@
          "description":"This specimen from the Eagle Mine contains low grade sulfide ore deposits. It was deposited as a sill where rising magma exploited weaknesses in pre-existing formation. Metal (and ion) rich hydrothermal fluids deposited high-grade nickel ore within/adjacent to sill. Chalcopyrite (fools gold) and pendlandite (lighter gold) minerals can be seen on surface of specimen.",
          "age":"Unknown",
          "type":"Intrusive igneous",
-         "name":"Gabbro",
-         "content":""
+         "name":"Gabbro"
       },
       {
          "id":"5",
@@ -63,8 +58,7 @@
          "description":"Deposited in mid to shallow seas as calcium carbonate precipitated out of solution, and were interbedded with blue-green algal mats known as stromatolites (~2 billion years ago). Stramotolites are fossilized algae, the first evidence of single celled organisms (eukaryotes) on the planet)",
          "age":"Unknown",
          "type":"Sedimentary, Chemical",
-         "name":"Chemical Limestone",
-         "content":""
+         "name":"Chemical Limestone"
       },
       {
          "id":"6",
@@ -74,8 +68,7 @@
          "description":"Mesnard quartizite. Originally deposited as sandstone; quartz grains grew during subsequent metamorphism.  Original bedding of sandstone can be detected as faint bands within specimen.",
          "age":"Unknown",
          "type":"Unknown",
-         "name":"Quartzite",
-         "content":""
+         "name":"Quartzite"
       },
       {
          "id":"7",
@@ -85,8 +78,7 @@
          "description":"Not Provided",
          "age":"Unknown",
          "type":"Metamorphosed granite",
-         "name":"Bell Creek Gneiss",
-         "content":""
+         "name":"Bell Creek Gneiss"
       },
       {
          "id":"8",
@@ -96,8 +88,7 @@
          "description":"Negaunee Iron Formation. A local iron ore. Characterized by alternating bands of iron (hematite, Fe2O3) and silica (chert, SiO2). Formed when our atmosphere was devoid of oxygen.",
          "age":"Approximately 2 billion years old.",
          "type":"Sedimentary (chemical)",
-         "name":"Banded Iron Formation",
-         "content":""
+         "name":"Banded Iron Formation"
       },
       {
          "id":"9",
@@ -107,8 +98,7 @@
          "description":"Evidence of a diabase dike",
          "age":"Unknown",
          "type":"Unknown",
-         "name":" Bell Creek Gneiss",
-         "content":""
+         "name":" Bell Creek Gneiss"
       },
       {
          "id":"10",
@@ -118,8 +108,7 @@
          "description":"From the Linberg quarry located between Marquette and Negaunee. Interlaminated beds of quartzite and carbonate. Originally deposited in a mid-depth to shallow sea environment as a chemical sedimentary deposit. Some specimens are often interbedded with slate and/or stromatolites.",
          "age":"Approximately 2.2 billion years old.",
          "type":"Sedimentary/Metamorphic - banded",
-         "name":"Kona Dolomite",
-         "content":""
+         "name":"Kona Dolomite"
       },
       {
          "id":"11",
@@ -129,8 +118,7 @@
          "description":"Part of the Bayfield Group. Deposited in nearshore environments rich in quartz and iron. Jacobsville sandstone in the Western U.P. (e.g. Keweenwaw-Ontonongan) was deposited on top of the mid-continental rift (basalt/conglomerate) deposits. The Bayfield Group was deposited between 540 million years and 1.1 billion years ago. The red and white staining is a result of redox processes affecting iron within sandstone where Fe II or Fe III exist in reduced and oxic conditions, respectively.",
          "age":"Between 540 million years and 1.1 billion years ago.",
          "type":"Sedimentary",
-         "name":"Jacobsville Sandstone",
-         "content":""
+         "name":"Jacobsville Sandstone"
       },
       {
          "id":"12",
@@ -138,8 +126,7 @@
          "iconImage":"icons/infoIcon.png",
          "markerImage":"/images/info/pavilion.jpg",
          "description":"Not Provided",
-         "name":"OLA Pavilion",
-         "content":""
+         "name":"OLA Pavilion"
       },
       {
          "id":"13",
@@ -147,8 +134,7 @@
          "iconImage":"icons/infoIcon.png",
          "markerImage":"/images/info/shed.jpg",
          "description":"Not Provided",
-         "name":"OLA Maintenance Shed",
-         "content":""
+         "name":"OLA Maintenance Shed"
       },
       {
          "id":"14",
@@ -156,8 +142,7 @@
          "iconImage":"icons/infoIcon.png",
          "markerImage":"/images/info/groundwater_monitoring_well.jpg",
          "description":"Not Provided",
-         "name":"Groundwater Monitoring Well",
-         "content":""
+         "name":"Groundwater Monitoring Well"
       }
    ]
 }

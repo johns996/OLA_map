@@ -152,7 +152,9 @@ var icons = {
         nativePlantPark.setMap(map);
         whitmanWoods.setMap(map);
 
-    var infoWindow = new google.maps.InfoWindow();                          //? Creates an info window object.
+    var infoWindow = new google.maps.InfoWindow({
+        maxWidth: 305
+    });                          //? Creates an info window object.
 
 //*  Importing dataPoints.json -------------------------------------------
     let request = new Request("./dataPoints.json");                         //? this requests dataPoints.json.
@@ -174,7 +176,12 @@ var icons = {
             position: props.cords,
             map: map,
             title: props.id,
-            image: props.markerImage
+            image: props.markerImage,
+            description: props.description,
+            age: props.age,
+            type: props.type,
+            name: props.name,
+            
         });
         //Checks for definition of custom icon
         if(props.iconImage){                                            //? checks to see if an image exists in the marker properties
@@ -190,17 +197,15 @@ var icons = {
 //            marker.addListener('click', function(){
 */
 var content_string = '<div id="content">' +
-'<h1 id="title"> Compeau Creek Gneiss </h1>' + 
-'<img src="images/herbs/p2_black_eyed_susan.jpg">'+
-'<script type="text/javascript" src="dataPoints.json>'+
-'var markerData = JSON.parse(dataPoints);'+
-'var image_src = '
-'</script>'+
+'<h1 id="title"> '+props.name+'</h1>' + 
+'<center><img id="markerImage" src="'+props.markerImage+'"></center>' +
+'<p id="property"><b>Type:</b> '+props.type+'</p>' +
+'<p id="property"><b>Description:</b> '+props.description+'</p>';
 
-    google.maps.event.addListener(marker, 'click', function(){          //? event to listen for a click on a marker
-               // infoWindow.setContent(props.content); 
-               //this is where I modify the content string with the marker data.  
-               infoWindow.setContent(content_string);                 //? on-click set the content of the info-window
+
+
+    google.maps.event.addListener(marker, 'click', function(){           //? event to listen for a click on a marker  
+                infoWindow.setContent(content_string);                   //? on-click set the content of the info-window
                 infoWindow.open(map, marker);                           //? then open it
                 console.log(marker.title);
                 console.log(marker.image);
@@ -240,4 +245,5 @@ for (var key in icons) {
 //todo: refresh the iframe content on click. 
 //todo: the info window points should have [common name, scientific name, and coordinates].
 //todo: decide the best way to update the info window. 
+//todo: offer a toggle option to choose which icons that are displayed on the map.
  
