@@ -173,9 +173,8 @@ var icons = {
 //*  Marker functionality -----------------------------------------------
     function addMarker(props){                                          //? takes the argument "props" which will hold the unique properties of each marker being created
         var marker = new google.maps.Marker({
-            position: props.cords,
             map: map,
-            title: props.id,
+            position: props.cords,
             image: props.markerImage,
             description: props.description,
             age: props.age,
@@ -207,7 +206,6 @@ var content_string = '<div id="content">' +
     google.maps.event.addListener(marker, 'click', function(){           //? event to listen for a click on a marker  
                 infoWindow.setContent(content_string);                   //? on-click set the content of the info-window
                 infoWindow.open(map, marker);                           //? then open it
-                console.log(marker.title);
                 console.log(marker.image);
 
                 

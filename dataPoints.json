@@ -1,127 +1,114 @@
 {
    "markers": [
       {
-         "id":"0",
          "cords":{"lat":46.559384,"lng":-87.409078},
          "iconImage":"icons/rockIcon.png",
-         "markerImage":"/images/rocks/compeau_creek_gneiss.jpg",
+         "markerImage":"/images/rock/compeau_creek_gneiss.jpg",
          "description":"Granitic parent material subjected to low-grade metamorphism. This specimen looks like a granite, but has been metamorphosed, as evidenced by parallel alignment of platy or needle shaped ferromagnesian minerals. Common bedrock of Marquette. Visible foliation.",
          "age":"More than 2.7 billion years old.",
          "type":"Intrusive igneous (metamorphosed to gneiss)/Metamorphic, Foliated.",
          "name":"Compeau Creek Gneiss"
       },
       {
-         "id":"1",
          "cords":{"lat":46.559353,"lng":-87.409153},
          "iconImage":"icons/rockIcon.png",
-         "markerImage":"/images/rocks/gabbro.jpg",
+         "markerImage":"/images/rock/gabbro.jpg",
          "description":"Deposited as an intrusive mafic igneous rock within the Earth.",
          "age":"Unknown",
          "type":"Intrusive igneous",
          "name":"Gabbro"
       },
       {
-         "id":"2",
          "cords":{"lat":46.559340,"lng":-87.409230},
          "iconImage":"icons/rockIcon.png",
-         "markerImage":"/images/rocks/kona_dolomite.jpg",
+         "markerImage":"/images/rock/kona_dolomite.jpg",
          "description":"From the Linberg quarry located between Marquette and Negaunee. Interlaminated beds of quartzite and carbonate. Originally deposited in a mid-depth to shallow sea environment as a chemical sedimentary deposit. Some specimens are often interbedded with slate and/or stromatolites.",
          "age":"Approximately 2.2 billion years old.",
          "type":"Sedimentary/Metamorphic - banded",
          "name":"Kona Dolomite"
       },
       {
-         "id":"3",
          "cords":{"lat":46.559320,"lng":-87.409390},
          "iconImage":"icons/rockIcon.png",
-         "markerImage":"/images/rocks/red_granite.jpg",
+         "markerImage":"/images/rock/red_granite.jpg",
          "description":"Iron rich deposit. Specimen contains some orthoclase feldspar, which gives the specimen its pink color.  Smoky quartz crystals are visible and common within this specimen.",
          "age":"Unknown",
          "type":"Intrusive, igneous, felsic",
          "name":"Red Granite"
       },
       {
-         "id":"4",
          "cords":{"lat":46.559274,"lng":-87.409406},
          "iconImage":"icons/rockIcon.png",
-         "markerImage":"/images/rocks/gabbro_2.jpg",
+         "markerImage":"/images/rock/gabbro_2.jpg",
          "description":"This specimen from the Eagle Mine contains low grade sulfide ore deposits. It was deposited as a sill where rising magma exploited weaknesses in pre-existing formation. Metal (and ion) rich hydrothermal fluids deposited high-grade nickel ore within/adjacent to sill. Chalcopyrite (fools gold) and pendlandite (lighter gold) minerals can be seen on surface of specimen.",
          "age":"Unknown",
          "type":"Intrusive igneous",
          "name":"Gabbro"
       },
       {
-         "id":"5",
          "cords":{"lat":46.559230,"lng": -87.409350},
          "iconImage":"icons/rockIcon.png",
-         "markerImage":"/images/rocks/chemical_limestone.jpg",
+         "markerImage":"/images/rock/chemical_limestone.jpg",
          "description":"Deposited in mid to shallow seas as calcium carbonate precipitated out of solution, and were interbedded with blue-green algal mats known as stromatolites (~2 billion years ago). Stramotolites are fossilized algae, the first evidence of single celled organisms (eukaryotes) on the planet)",
          "age":"Unknown",
          "type":"Sedimentary, Chemical",
          "name":"Chemical Limestone"
       },
       {
-         "id":"6",
          "cords":{"lat":46.559233,"lng":-87.409249},
          "iconImage":"icons/rockIcon.png",
-         "markerImage":"/images/rocks/quartzite.jpg",
+         "markerImage":"/images/rock/quartzite.jpg",
          "description":"Mesnard quartizite. Originally deposited as sandstone; quartz grains grew during subsequent metamorphism.  Original bedding of sandstone can be detected as faint bands within specimen.",
          "age":"Unknown",
          "type":"Unknown",
          "name":"Quartzite"
       },
       {
-         "id":"7",
          "cords":{"lat":46.559159,"lng":-87.409243},
          "iconImage":"icons/rockIcon.png",
-         "markerImage":"/images/rocks/bell_creek_gneiss.jpg",
+         "markerImage":"/images/rock/bell_creek_gneiss.jpg",
          "description":"Not Provided",
          "age":"Unknown",
          "type":"Metamorphosed granite",
          "name":"Bell Creek Gneiss"
       },
       {
-         "id":"8",
          "cords":{"lat":46.559163,"lng":-87.409170},
          "iconImage":"icons/rockIcon.png",
-         "markerImage":"/images/rocks/banded_iron_formation.jpg",
+         "markerImage":"/images/rock/banded_iron_formation.jpg",
          "description":"Negaunee Iron Formation. A local iron ore. Characterized by alternating bands of iron (hematite, Fe2O3) and silica (chert, SiO2). Formed when our atmosphere was devoid of oxygen.",
          "age":"Approximately 2 billion years old.",
          "type":"Sedimentary (chemical)",
          "name":"Banded Iron Formation"
       },
       {
-         "id":"9",
          "cords":{"lat":46.559192,"lng":-87.409062},
          "iconImage":"icons/rockIcon.png",
-         "markerImage":"/images/rocks/bell_creek_gneiss_2.jpg",
+         "markerImage":"/images/rock/bell_creek_gneiss_2.jpg",
          "description":"Evidence of a diabase dike",
          "age":"Unknown",
          "type":"Unknown",
          "name":" Bell Creek Gneiss"
       },
       {
-         "id":"10",
          "cords":{"lat":46.559160,"lng":-87.408984},
          "iconImage":"icons/rockIcon.png",
-         "markerImage":"/images/rocks/kona_dolomite_2.jpg",
+         "markerImage":"/images/rock/kona_dolomite_2.jpg",
          "description":"From the Linberg quarry located between Marquette and Negaunee. Interlaminated beds of quartzite and carbonate. Originally deposited in a mid-depth to shallow sea environment as a chemical sedimentary deposit. Some specimens are often interbedded with slate and/or stromatolites.",
          "age":"Approximately 2.2 billion years old.",
          "type":"Sedimentary/Metamorphic - banded",
          "name":"Kona Dolomite"
       },
       {
-         "id":"11",
          "cords":{"lat":46.559221,"lng":-87.409146},
          "iconImage":"icons/rockIcon.png",
-         "markerImage":"/images/rocks/jacobsville_sandstone_pathway.jpg",
+         "markerImage":"/images/rock/jacobsville_sandstone_pathway.jpg",
          "description":"Part of the Bayfield Group. Deposited in nearshore environments rich in quartz and iron. Jacobsville sandstone in the Western U.P. (e.g. Keweenwaw-Ontonongan) was deposited on top of the mid-continental rift (basalt/conglomerate) deposits. The Bayfield Group was deposited between 540 million years and 1.1 billion years ago. The red and white staining is a result of redox processes affecting iron within sandstone where Fe II or Fe III exist in reduced and oxic conditions, respectively.",
          "age":"Between 540 million years and 1.1 billion years ago.",
          "type":"Sedimentary",
          "name":"Jacobsville Sandstone"
       },
       {
-         "id":"12",
          "cords":{"lat":46.56021862127103,"lng":-87.40902230143546},
          "iconImage":"icons/infoIcon.png",
          "markerImage":"/images/info/pavilion.jpg",
@@ -129,7 +116,6 @@
          "name":"OLA Pavilion"
       },
       {
-         "id":"13",
          "cords":{"lat":46.560084,"lng":-87.408823},
          "iconImage":"icons/infoIcon.png",
          "markerImage":"/images/info/shed.jpg",
@@ -137,12 +123,171 @@
          "name":"OLA Maintenance Shed"
       },
       {
-         "id":"14",
          "cords":{"lat":46.560538,"lng":-87.408912},
          "iconImage":"icons/infoIcon.png",
          "markerImage":"/images/info/groundwater_monitoring_well.jpg",
          "description":"Not Provided",
          "name":"Groundwater Monitoring Well"
+      },
+      {
+         "name":"Black-eyed Susan",
+         "scientificName":"Rudbeckia hirta",
+         "type":"Flowering Plant",
+         "cords":{"lat":46.559194,"lng":-87.409167},
+         "iconImage":"icons/plantIcon.png",
+         "markerImage":"/images/herb/black_eyed_susan_origin.jpg",
+         "description":"Rudbeckia hirta, commonly called black-eyed Susan, is a North American flowering plant in the sunflower family, native to Eastern and Central North America and naturalized in the Western part of the continent as well as in China.",
+         "link":"https://plants.usda.gov/factsheet/pdf/fs_ruhi2.pdf"
+      },
+      {
+         "name":"Unknown until fruiting",
+         "scientificName":"Prunus sp.",
+         "type":"Tree",
+         "cords":{"lat":46.559222,"lng":-87.408972},
+         "iconImage":"icons/treeIcon.png",
+         "markerImage":"/images/tree/prunus_origin.jpg",
+         "description":"Prunus is a genus of trees and shrubs, which includes the fruits plums, cherries, peaches, nectarines, apricots, and almonds. Native to the northern temperate regions. Many members of the genus are widely cultivated for their fruit and for decorative purposes.",
+         "link":"https://michiganflora.net/genus.aspx?id=Prunus"
+      },
+      {
+         "name":"Maple",
+         "scientificName":"Acer saccharum",
+         "type":"Tree",
+         "cords":{"lat":46.559167,"lng":-87.409083},
+         "iconImage":"icons/treeIcon.png",
+         "markerImage":"/images/tree/maple_origin.jpg",
+         "link":"https://www.fs.fed.us/database/feis/plants/tree/acesac/all.html ",
+         "description":"Large tree with rounded, dense crown and striking, multicolored foliage in autumn. Bark (Tough outer covering of trunks or stems of trees, shrubs, and vines.) is smooth in youth, becoming quite shaggy with age. Its straight, central trunk; wide-spreading branches; and pointed crown are all attractive landscape characteristics but are less noted than the species’ brilliant red, yellow and orange fall foliage. Each tree yields between 5 and 60 gallons of sap per year; about 32 gallons of sap make 1 gallon of syrup or 4 1/2 pounds of sugar. One of the best of the larger shade trees. It is susceptible to salt."
+      },
+      {
+         "name":"Pawpaw",
+         "scientificName":"Asimina triloba",
+         "type":"Tree",
+         "cords":{"lat":46.559111,"lng":-87.409111},
+         "iconImage":"icons/treeIcon.png",
+         "markerImage":"/images/tree/pawpaw_origin.jpg",
+         "link":"http://www.uky.edu/hort/Pawpaw",
+         "description":"Pawpaw grows in thickets in the forest understory and along woodland edges. It is the native plant that produces the largest edible fruit in North America."
+      },
+      {
+         "name":"Apple Tree",
+         "scientificName":"Malus sp.",
+         "type":"Tree",
+         "cords":{"lat":46.559111,"lng":-87.409139},
+         "iconImage":"icons/treeIcon.png",
+         "markerImage":"/images/tree/apple_tree_origin.jpg",
+         "link":"https://www.mortonarb.org/trees-plants/tree-plant-descriptions/crabapple-cultivars ",
+         "description":"Crabapples are versatile, small, ornamental trees used in the urban landscape. Crabapples bloom in spring, usually in May, bearing flowers that vary a great deal in color, size, fragrance, and visual appeal."   
+      },
+      {
+         "name":"Norway maple",
+         "scientificName":"Acer platanoides",
+         "type":"Tree",
+         "cords":{"lat":46.559139,"lng":-87.409278},
+         "iconImage":"icons/treeIcon.png",
+         "markerImage":"/images/tree/norway_maple_origin.jpg",
+         "link":"https://www.mortonarb.org/trees-plants/tree-plant-descriptions/norway-maple-not-recommended ",
+         "description":"A hardy and vigorous growing tree that can withstand all the indignities of being planted next to a road, as well as extreme heat and cold, droughts, car exhaust fumes, and road salt near their roots. Norway maples have invasive traits that enable them to spread aggressively. Norway maple is known for its tolerance of urban conditions, but it often becomes a weedy plant through self-seeding." 
+      },
+      {
+         "name":"Orange Tiger Lily",
+         "scientificName":"Lilium lancifolium",
+         "type":"Flowering Plant",
+         "cords":{"lat":46.559306,"lng":-87.409389},
+         "iconImage":"icons/plantIcon.png",
+         "markerImage":"/images/herb/orange_tiger_lily_origin.jpg",
+         "link":"https://www.illinoiswildflowers.info/weeds/plants/tiger_lily.html ",
+         "description":"Tiger Lily flowers resemble those of the native Michigan Lily (Lilium michiganense) but the leaves are distinctly different, and Tiger Lily has the unique bulbets in the leaf axils. An early historical garden introduction, it is not as aggressive as other gardening icons that are making their way into natural habitats, such as Orange Day Lily (Hemerocallis fulva), though it is apparently more likely to naturalize in wetter than drier habitats, as it has in the eastern U.S. Persistent or not—time will tell—it is neither an aesthetic nor ecological replacement for native lilies."
+      },
+      {
+         "name":"Norway Maple",
+         "scientificName":"Acer platonoides",
+         "type":"Tree",
+         "cords":{"lat":46.559306,"lng":-87.409333},
+         "iconImage":"icons/treeIcon.png",
+         "markerImage":"/images/tree/norway_maple_2_origin.jpg",
+         "link":"https://www.mortonarb.org/trees-plants/tree-plant-descriptions/norway-maple-not-recommended ",
+         "description":"A hardy and vigorous growing tree that can withstand all the indignities of being planted next to a road, as well as extreme heat and cold, droughts, car exhaust fumes, and road salt near their roots. Norway maples have invasive traits that enable them to spread aggressively. Norway maple is known for its tolerance of urban conditions, but it often becomes a weedy plant through self-seeding."
+      },
+      {
+         "name":"Common Elderberry",
+         "scientificName":"Sambucus canadensis",
+         "type":"Flowering Plant",
+         "cords":{"lat":46.559250,"lng":-87.409306},
+         "iconImage":"icons/plantIcon.png",
+         "markerImage":"/images/herb/common_elderberry_origin.jpg",
+         "link":"https://www.wildflower.org/plants/result.php?id_plant=sanic4",
+         "description":"This native North American plant is a deciduous suckering shrub that bears large white flowers in the summer and small black berries in drooping clusters in the fall. Also known as the Common Elder, American Elderberry is native to the central and eastern U.S. and southeastern Canada."
+      },
+      {
+         "name":"Round-leaf Dogwood",
+         "scientificName":"Cornus rugosa",
+         "type":"Shrub",
+         "cords":{"lat":46.559306,"lng":-87.409278},
+         "iconImage":"icons/shrubIcon.png",
+         "markerImage":"/images/shrub/round_leaf_dogwood_origin.jpg",
+         "link":"https://www.minnesotawildflowers.info/shrub/round-leaved-dogwood ",
+         "description":"Dogwoods are distinguished from other flowering shrubs by the clusters of small, 4-petaled white flowers and opposite (except for 1 species) leaves that are toothless and have prominent, arching, lateral veins."
+      },
+      {
+         "name":"Norway Maple",
+         "scientificName":"Acer platonoides",
+         "type":"Tree",
+         "cords":{"lat":46.559222,"lng":-87.409194},
+         "iconImage":"icons/treeIcon.png",
+         "markerImage":"/images/tree/norway_maple_3_origin.jpg",
+         "link":"https://www.mortonarb.org/trees-plants/tree-plant-descriptions/norway-maple-not-recommended ",
+         "description":"A hardy and vigorous growing tree that can withstand all the indignities of being planted next to a road, as well as extreme heat and cold, droughts, car exhaust fumes, and road salt near their roots. Norway maples have invasive traits that enable them to spread aggressively. Norway maple is known for its tolerance of urban conditions, but it often becomes a weedy plant through self-seeding."
+      },
+      {
+         "name":"Wild/Sweet Cherry",
+         "scientificName":"Prunus avium",
+         "type":"Tree",
+         "cords":{"lat":46.559278,"lng":-87.409222},
+         "iconImage":"icons/treeIcon.png",
+         "markerImage":"/images/tree/wild_sweet_cherry_origin.jpg",
+         "link":"https://plants.ces.ncsu.edu/plants/prunus-avium/",
+         "description":"Although no specific mention has been seen for this species, it belongs to a genus where most, if not all members of the genus produce hydrogen cyanide, a poison that gives almonds their characteristic flavour. This toxin is found mainly in the leaves and seed and is readily detected by its bitter taste. It is usually present in too small a quantity to do any harm but any very bitter seed or fruit should not be eaten."
+      },
+      {
+         "name":"Common Ninebark",
+         "scientificName":"Physocarpus opulifolius",
+         "type":"Shrub",
+         "cords":{"lat":46.559333,"lng":-87.409167},
+         "iconImage":"icons/shrubIcon.png",
+         "markerImage":"/images/shrub/common_ninebark_origin.jpg",
+         "link":"https://www.mortonarb.org/trees-plants/tree-plant-descriptions/common-ninebark ",
+         "description":"Atlantic ninebark offers spiraea-like flowers, attractive and persistent fruit pods, arching branches, yellow fall color, and exfoliating bark. Atlantic Ninebark is fast-growing, insect and disease resistant, and drought-tolerant."
+      },
+      {
+         "name":"White Oak",
+         "scientificName":"Quercus alba",
+         "type":"Tree ",
+         "cords":{"lat":46.559340,"lng":-87.409197},
+         "iconImage":"icons/treeIcon.png",
+         "markerImage":"/images/tree/white_oak_origin.jpg",
+         "link":"https://www.fs.fed.us/database/feis/plants/tree/quealb/all.html",
+         "description":"The classic eastern oak, with wide spreading branches and a rounded crown, the trunk irregularly divided into spreading, often horizontal, stout branches. Northern white oak is an imposing, deciduous tree, 80-100 ft. tall, with a straight trunk and a wide (when open-grown) crown. Large, coarse, horizontal limbs are picturesque. Catkins appear just before or with the appearance of new leaves. The round-lobed leaves turn burgundy in fall. Dried leaves remain into winter."
+      },
+      {
+         "name":"Red Maple",
+         "scientificName":"Acer saccharum",
+         "type":"Tree",
+         "cords":{"lat":46.559345,"lng":-87.409060},
+         "iconImage":"icons/treeIcon.png",
+         "markerImage":"/images/tree/red_maple_origin.jpg",
+         "link":"https://www.fs.fed.us/database/feis/plants/tree/acesac/all.html ",
+         "description":"Large tree with rounded, dense crown and striking, multicolored foliage in autumn. Bark (Tough outer covering of trunks or stems of trees, shrubs, and vines.) is smooth in youth, becoming quite shaggy with age. Its straight, central trunk; wide-spreading branches; and pointed crown are all attractive landscape characteristics but are less noted than the species’ brilliant red, yellow and orange fall foliage. Each tree yields between 5 and 60 gallons of sap per year; about 32 gallons of sap make 1 gallon of syrup or 4 1/2 pounds of sugar. One of the best of the larger shade trees. It is susceptible to salt."
+      },
+      {
+         "name":"Ohio Spiderwort/Bluejacket",
+         "scientificName":"Tradescantia ohiensis",
+         "type":"Flowering Plant",
+         "cords":{"lat":46.559361,"lng":-87.409139},
+         "iconImage":"icons/plantIcon.png",
+         "markerImage":"/images/herb/bluejacket_origin.jpg",
+         "link":"https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=r820 ",
+         "description":"This is a herbaceous perennial plant about 2-4' tall and mostly unbranched, except toward the apex. The flowers open up during the morning and close by the afternoon in sunny weather, but remain open longer on cloudy days. There is no floral scent. The leaves and stems are reported to be edible – fresh or cooked."
       }
    ]
 }
