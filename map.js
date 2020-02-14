@@ -180,6 +180,8 @@ var icons = {
             age: props.age,
             type: props.type,
             name: props.name,
+            scientificName: props.scientificName,
+            link: props.link
             
         });
         //Checks for definition of custom icon
