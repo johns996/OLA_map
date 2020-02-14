@@ -207,7 +207,7 @@ var plant_content = '<div id="content">' +
 '<p id="property"><b>Scientific Name:</b> '+props.scientificName+'</p>' +
 '<p id="property"><b>Type:</b> '+props.type+'</p>' +
 '<p id="property"><b>Description:</b> '+props.description+'</p>' +
-'<a id="link" href='+props.link+'>Learn More</a>';
+'<a id="link" href='+props.link+' target="_blank">Learn More</a>';
 
 
 var rock_content = '<div id="content">' +
