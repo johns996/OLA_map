@@ -1,22 +1,15 @@
-/** Nicholas Potyok | Start:[06/18/19]
-/* Legend 
-/** [Titles] 
-/*? [Design ideas] 
-/*TODO [Notes to myself] 
-/*Config [properties that can altered] 
-/* color coordination can be seen when using the visual studio code exstension: better comments. */
+/** Nicholas Potyok | Start:[06/18/19] **/
 
 
 
-.eegs-map { 
-    background-color: rgb(146, 199, 150);
-    
-}
+
+
+
 #map {
-    height: 80%;
-    width: 90%;
-    margin: 0;
-
+        height: 600px; 
+        width: 100%; 
+    
+   
 }
 #legend {
     font-family: Arial, sans-serif;
@@ -25,9 +18,4 @@
     margin: 10px;
     border: 3px solid rgb(107, 107, 107);
   }
-#frame{ 
-    width: 24.5%;
-    height: 80%;
-    float: right;
-    margin: 0;
-}
+

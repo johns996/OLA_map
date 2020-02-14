@@ -24,8 +24,8 @@ var icons = {
         icon: 'https://www.nmu.edu/Webb/OLA_Map/icons/rockIcon.png'
     },
     Plant: {    
-        name: 'Herb',
-        icon: 'https://www.nmu.edu/Webb/OLA_Map/icons/plantIcon.png'
+        name: 'Plant',
+        icon: 'icons/plantIcon.png'
     },
     Tree: {    
         name: 'Tree',
@@ -180,6 +180,9 @@ var icons = {
             age: props.age,
             type: props.type,
             name: props.name,
+            iconImage: props.iconImage,
+            scientificName: props.scientificName,
+            link: props.link,
             
         });
         //Checks for definition of custom icon
@@ -197,17 +200,51 @@ var icons = {
 */
 
 //*  Info_window_functionality -----------------------------------------------
-var content_string = '<div id="content">' +
+
+var plant_content = '<div id="content">' +
+'<h1 id="title"> '+props.name+'</h1>' + 
+'<center><img id="markerImage" src="'+props.markerImage+'"></center>' +
+'<p id="property"><b>Scientific Name:</b> '+props.scientificName+'</p>' +
+'<p id="property"><b>Type:</b> '+props.type+'</p>' +
+'<p id="property"><b>Description:</b> '+props.description+'</p>' +
+'<a id="link" href='+props.link+'>Learn More</a>';
+
+
+var rock_content = '<div id="content">' +
 '<h1 id="title"> '+props.name+'</h1>' + 
 '<center><img id="markerImage" src="'+props.markerImage+'"></center>' +
 '<p id="property"><b>Type:</b> '+props.type+'</p>' +
+'<p id="property"><b>Age:</b> '+props.age+'</p>' +
+'<p id="property"><b>Description:</b> '+props.description+'</p>' ;
+
+
+var info_content = '<div id="content">' +
+'<h1 id="title"> '+props.name+'</h1>' + 
+'<center><img id="markerImage" src="'+props.markerImage+'"></center>' +
 '<p id="property"><b>Description:</b> '+props.description+'</p>';
+
+
+    
+
+
 //todo: offer a toggle option to choose which icons that are displayed on the map.
 
-    google.maps.event.addListener(marker, 'click', function(){           //? event to listen for a click on a marker  
-                infoWindow.setContent(content_string);                   //? on-click set the content of the info-window
+    google.maps.event.addListener(marker, 'click', function(){           //? event to listen for a click on a marker 
+
+        //|||| "icons/plantIcon.png" || "icons/grassIcon.png"
+        if(marker.iconImage == "icons/treeIcon.png" || marker.iconImage == "icons/shrubIcon.png" || marker.iconImage == "icons/plantIcon.png" || marker.iconImage == "icons/grassIcon.png"){
+            infoWindow.setContent(plant_content);     
+
+        } else if(marker.iconImage == "icons/rockIcon.png"){
+            infoWindow.setContent(rock_content);
+        
+        } else if(marker.iconImage == "icons/infoIcon.png"){
+            infoWindow.setContent(info_content);
+        }
+                                                                          //? on-click set the content of the info-window
                 infoWindow.open(map, marker);                           //? then open it
                 console.log(marker.image);
+                console.log(marker.iconImage);
             });
         }
     
