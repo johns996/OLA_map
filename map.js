@@ -260,4 +260,3 @@ for (var key in icons) {
 }
     map.controls[google.maps.ControlPosition.LEFT_TOP].push(document.getElementById('legend'));
 }
- 
