@@ -418,6 +418,146 @@
          "markerImage":"/images/herb/creeping_thyme_origin.jpg",
          "link":"http://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=a294",
          "description":"They are principally grown for the fine texture of the leaves as they spread out to softly blanket the ground, but they also produce flowers of various colors, depending on type. The flowers usually appear late spring and early summer."
+      },
+      {
+         "name":"Japanese Yew",
+         "scientificName":"Taxus cuspidata",
+         "type":"Shrub",
+         "cords":{"lat":46.559169,"lng":-87.409390},
+         "iconImage":"icons/shrubIcon.png",
+         "markerImage":"/images/shrub/japanese_yew_origin.jpg",
+         "link":"https://www.thespruce.com/japanese-yews-and-english-yew-bushes-2132068",
+         "description":"The oil derived from yew bushes, taxol, is used for treating breast and ovarian cancer, but all parts of yew bushes are poisonous to animals and humans (except for the fleshy red berry)."
+      },
+      {
+         "name":"Autumn Joy Sedum",
+         "scientificName":"Hylotelephium herbstsfreude",
+         "type":"Succulent/Flowering Plant",
+         "cords":{"lat":46.559227,"lng":-87.409431},
+         "iconImage":"icons/plantIcon.png",
+         "markerImage":"/images/herb/autumn_joy_sedum_origin",
+         "link":"https://www.thespruce.com/autumn-joy-sedum-2132607",
+         "description":"'Autumn Joy' is a stout, spreading plant with succulent foliage that produces delicate bright-pink flowers on large heads."
+      },
+      {
+         "name":"Touch-me-not",
+         "scientificName":"Impatiens sp.",
+         "type":"Flowering Plant",
+         "cords":{"lat":46.559168,"lng":-87.409363},
+         "iconImage":"icons/plantIcon.png",
+         "markerImage":"/images//herb/touch_me_not_origin.jpg",
+         "link":"https://www.thespruce.com/shade-tolerant-impatiens-flowers-2132141",
+         "description":"Impatiens flowers take their name from the Latin, impatiens, meaning 'impatient'. They are so-called because their ripe seed pods will sometimes burst open from even a light touch (as if they were impatient to open). This characteristic is especially apparent in a relative named 'jewelweed' which is indigenous to eastern North America."
+      },
+      {
+         "name":"Larkspur",
+         "scientificName":"Delphinium sp.",
+         "type":"Flowering Plant",
+         "cords":{"lat":46.559139,"lng":-87.409194},
+         "iconImage":"icons/plantIcon.png",
+         "markerImage":"/images/herb/larkspur_origin.jpg",
+         "link":"https://www.almanac.com/plant/delphiniums",
+         "description":"Delphiniums are perennials grown for their showy spikes of colorful summer flowers in gorgeous shades of blue, pink, white, and purple."
+      },
+      {
+         "name":"Orange Day-Lily",
+         "scientificName":"Hemerocallis fulva",
+         "type":"Flowering Plant",
+         "cords":{"lat":46.559194,"lng":-87.409278},
+         "iconImage":"icons/plantIcon.png",
+         "markerImage":"/images/herb/orange_day_lily_origin.jpg",
+         "link":"https://www.illinoiswildflowers.info/weeds/plants/or_daylily.htm",
+         "description":"A cultivated plant from Asia rather freely spreading by rhizomes and tuberous roots to roadsides and dumps. Most or all escaped plants are sterile triploids, including a common double-flowered form, and therefore spread only vegetatively."
+      },
+      {
+         "name":"Marsh Hedge Nettle",
+         "scientificName":"Stachys palustris",
+         "type":"Flowering Plant",
+         "cords":{"lat":46.559222,"lng":-87.409222},
+         "iconImage":"icons/plantIcon.png",
+         "markerImage":"/images/herb/marsh_hedge_nettle_origin.jpg",
+         "link":"https://www.minnesotawildflowers.info/flower/marsh-hedge-nettle",
+         "description":"Marsh Hedge Nettle has mostly stalkless leaves and stems with hairs on the surface as well as the angles. Flowers are whorled around the stem, usually in groups of 6, in a spike-like cluster at the top of the stem and at the end of branches arising from leaf axils in the upper plant."
+      },
+      {
+         "name":"Switchgrass",
+         "scientificName":"Panicum virgatum",
+         "type":"Grass",
+         "cords":{"lat":46.559380,"lng":-87.409278},
+         "iconImage":"icons/grassIcon.png",
+         "markerImage":"/images/grass/switchgrass_origin.jpg",
+         "link":"https://plants.usda.gov/factsheet/pdf/fs_pavi2.pdf",
+         "description":"Clump-forming, warm-season grass with open, lacy sprays with small seeds. Panicum virgatum L., switchgrass, is native to all of the United States except California and the Pacific Northwest. It is a perennial sod-forming grass that grows 3 to 5 feet tall and can be distinguished from other warm-season grasses, even when plants are young, by the white patch of hair at the point where the leaf attaches to the stem."
+      },
+      {
+         "name":"Goldenrod",
+         "scientificName":"Solidago sp.",
+         "type":"Flowering Plant",
+         "cords":{"lat":46.559209,"lng":-87.40896},
+         "iconImage":"icons/plantIcon.png",
+         "markerImage":"/images/herb/goldenrod_origin.jpg",
+         "link":"https://www.fs.fed.us/wildflowers/plant-of-the-week/solidago_altissima.shtml",
+         "description":"Goldenrod is a member of the Asteraceae, the Sunflower family. goldenrods have two different types of flowers, ray flowers and disk flowers and in turn, these can have male and female parts, or either one or the other. The ray flowers look like petals, but each is actually an individual flower. The disk flowers are at the center of the head, inside the ring of ray flowers."
+      },
+      {
+         "name":"Tickseed",
+         "scientificName":"Coreopsis sp.",
+         "type":"Flowering Plant",
+         "cords":{"lat":46.559105,"lng":-87.409165},
+         "iconImage":"icons/plantIcon.png",
+         "markerImage":"/images/herb/tickseed_origin.jpg",
+         "link":"https://www.thespruce.com/growing-and-using-coreopsis-in-the-flower-garden-1402839",
+         "description":"Their common name, &quot;tickseed,&quot; is supposedly for the seeds&#39; resemblance to ticks. Their daisy-like flowers range in colors from bright yellow and orange to pink and red. Native wildflower to Michigan."
+      },
+      {
+         "name":"Common Yarrow",
+         "scientificName":"Achillea millefolium",
+         "type":"Flowering Plant",
+         "cords":{"lat":46.559247,"lng":-87.408964},
+         "iconImage":"icons/plantIcon.png",
+         "markerImage":"/images/",
+         "link":"https://www.fs.fed.us/wildflowers/plant-of-the-week/achillea_millefolium.shtml",
+         "description":"The genus Achillea was named after Achilles, who used plant extracts to treat soldiers’ wounds in the battle of Troy. The name milfoil comes from its Latin name “millefolium” meaning “a thousand leaves”."
+      },
+      {
+         "name":"Blazing Star",
+         "scientificName":"Liatris spicata",
+         "type":"Flowering Plant",
+         "cords":{"lat":46.559275,"lng":-87.408954},
+         "iconImage":"icons/plantIcon.png",
+         "markerImage":"/images/",
+         "link":"https://www.wildflower.org/plants/result.php?id_plant=lisp",
+         "description":"Liatris belongs to the aster family, with each flower head having only fluffy disk flowers (resembling &quot;blazing stars&quot;) and no ray flowers. The feathery flower heads of liatris give rise to another common name of gayfeather."
+      },
+      {
+         "name":"Blue False Indigo",
+         "scientificName":"Baptisia australis",
+         "type":"Flowering Plant",
+         "cords":{"lat":46.559320,"lng":-87.408978},
+         "iconImage":"icons/plantIcon.png",
+         "markerImage":"/images/",
+         "link":"https://www.wildflower.org/plants/result.php?id_plant=BAAU",
+         "description":"This native prairie plant bears spikes of pea-shaped indigo blue flowers, resembling Lupines. They last for 3-4 weeks and attract butterflies, bees and hummingbirds."
+      },
+      {
+         "name":"Wild Chive",
+         "scientificName":"Allium schoenoprasum",
+         "type":"Flowering Plant",
+         "cords":{"lat":46.559332,"lng":-87.409045},
+         "iconImage":"icons/plantIcon.png",
+         "markerImage":"/images/",
+         "link":"https://wimastergardener.org/article/chives-allium-schoenoprasum/",
+         "description":"Garden chives grow in dense clumps, both the leaves and flowers are edible."
+      },
+      {
+         "name":"Giant Hyssop",
+         "scientificName":"Agastache urticifolia",
+         "type":"Flowering Plant",
+         "cords":{"lat":46.559304,"lng":-87.409040},
+         "iconImage":"icons/plantIcon.png",
+         "markerImage":"/images/",
+         "link":"https://www.wildflower.org/plants/result.php?id_plant=AGUR",
+         "description":"Agastache, from the Greek agan (much) and stachys (ear of grain), refers to the flower clusters. The spikes, short corolla lobes, and protruding stamens are distinctive."
       }
    ]
 }
