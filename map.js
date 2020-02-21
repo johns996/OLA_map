@@ -241,7 +241,7 @@ var info_content = '<div id="content">' +
         } else if(marker.iconImage == "icons/infoIcon.png"){
             infoWindow.setContent(info_content);
         }
-                                                                          //? on-click set the content of the info-window
+                                                                        //? on-click set the content of the info-window
                 infoWindow.open(map, marker);                           //? then open it
                 console.log(marker.image);
                 console.log(marker.iconImage);
@@ -251,12 +251,18 @@ var info_content = '<div id="content">' +
 //* Legend Content -----------------------------------------------------
 var legend = document.getElementById('legend');
 for (var key in icons) {
-  var type = icons[key];
-  var name = type.name;
-  var icon = type.icon;
-  var div = document.createElement('div');
-  div.innerHTML = '<img src="' + icon + '"> ' + name;
-  legend.appendChild(div);
+    var type = icons[key];
+    var name = type.name;
+    var icon = type.icon;
+    var div = document.createElement('div');
+    var check = document.createElement('div');
+    legend.appendChild(check);
+
+    //adds the image and name after the checkbox
+    check.innerHTML = '<input type="checkbox" class="checkbox"><img src="' + icon + '"> ' + name;
+
+    //adds them to the page
+    legend.appendChild(div);
 }
     map.controls[google.maps.ControlPosition.LEFT_TOP].push(document.getElementById('legend'));
 }
