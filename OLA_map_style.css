@@ -19,3 +19,7 @@
     border: 3px solid rgb(107, 107, 107);
   }
 
+.checkbox {
+    left: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
