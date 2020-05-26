@@ -9,8 +9,9 @@
 function initMap(){
 //* [Map properties] ---------------------------------------------------------------------------------------------
       var mapOptions= { 
-        center:new google.maps.LatLng(46.559389,-87.409198),            //Config    [(Lat, Lon) is center of map]
-        zoom:18,                                                        //Config    [Desired zoom]
+        center:new google.maps.LatLng(46.559320,-87.409198),            //Config    [(Lat, Lon) is center of map]
+        //zoom:18,
+        zoom:24,                                                        //Config    [Desired zoom]
         mapTypeId: google.maps.MapTypeId.SATELLITE,                     //Config    [Map type, options: (ROADMAP, SATELLITE, HYBRID, TERRAIN)]
         streetViewControl: false,                                       //Config    [False removes the streetview control icon]
         mapTypeControl: false,                                          //Config    [False removes the maptype control icon]
@@ -46,7 +47,7 @@ var icons = {
 };
 
 //* [Geopark overlay properties] ------------------------------------------------------------------------------
-    var geoParkCenter = new google.maps.LatLng(46.559252, -87.409189);
+    var geoParkCenter = new google.maps.LatLng(46.559247, -87.409193);
     var geoParkArea = new google.maps.Circle({
         center:geoParkCenter,                                           //Config    [central point of the circle]
         radius: 21,                                                     //Config    [Radius of the circle]
@@ -54,7 +55,7 @@ var icons = {
         strokeOpacity:0.8,                                              
         strokeWeight:2,
         fillColor:"#13a8bf",                                            //Config    [fill (color / opacity) values]
-        fillOpacity:0.3
+        fillOpacity:0.2
     });
 
 //* [NativePlantPark overlay properties] --------------------------------------------------------------------
@@ -104,7 +105,7 @@ var icons = {
         strokeOpacity:0.8,                                              
         strokeWeight:2,
         fillColor:"#397C37",                                            //Config    [fill (color / opacity) values]
-        fillOpacity:0.3
+        fillOpacity:0.2
     });
 
 //* [Ecopark overlay properties] --------------------------------------------------------------------
@@ -128,7 +129,7 @@ var icons = {
         strokeOpacity:0.8,                                              
         strokeWeight:2,
         fillColor:"#927646",                                           //Config    [fill (color / opacity) values]
-        fillOpacity:0.3
+        fillOpacity:0.2
     });
 
 //* [whitman woods overlay properties] --------------------------------------------------------------------
@@ -145,7 +146,7 @@ var icons = {
         strokeOpacity:0.8,                                              
         strokeWeight:2,
         fillColor:"#12b090",                                            //Config    [fill (color / opacity) values]
-        fillOpacity:0.3
+        fillOpacity:0.2
     });
         geoParkArea.setMap(map);
         ecoPark.setMap(map);
