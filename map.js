@@ -18,31 +18,31 @@ function initMap(){
     };
     var map = new google.maps.Map(document.getElementById('map'), mapOptions);      //? [creates new map]
 
-//* array of icon types -----------------------------------------------------------------------------------------
+//* array of icon types ( this array is only used by the Legend )-----------------------------------------------------------------------------------------
 var icons = {
     Rock: {    
         name: 'Rock',
-        icon: 'icons/rockIcon.png'
+        icon: 'icons/rockIcon.svg'
     },
     Plant: {    
         name: 'Plant',
-        icon: 'icons/plantIcon.png'
+        icon: 'icons/plantIcon.svg'
     },
     Tree: {    
         name: 'Tree',
-        icon: 'icons/treeIcon.png'
+        icon: 'icons/treeIcon.svg'
     },
     Shrub: {    
         name: 'Shrub',
-        icon: 'icons/shrubIcon.png'
+        icon: 'icons/shrubIcon.svg'
     },
     Grass: {    
         name: 'Grass',
-        icon: 'icons/grassIcon.png'
+        icon: 'icons/grassIcon.svg'
     },
     Info: {
         name: 'Info',
-        icon: 'icons/infoIcon.png'
+        icon: 'icons/infoIcon.svg'
     }
 };
 
@@ -233,13 +233,13 @@ var info_content = '<div id="content">' +
     google.maps.event.addListener(marker, 'click', function(){           //? event to listen for a click on a marker 
 
         //|||| "icons/plantIcon.png" || "icons/grassIcon.png"
-        if(marker.iconImage == "icons/treeIcon.png" || marker.iconImage == "icons/shrubIcon.png" || marker.iconImage == "icons/plantIcon.png" || marker.iconImage == "icons/grassIcon.png"){
+        if(marker.iconImage == "icons/treeIcon.svg" || marker.iconImage == "icons/shrubIcon.svg" || marker.iconImage == "icons/plantIcon.svg" || marker.iconImage == "icons/grassIcon.svg"){
             infoWindow.setContent(plant_content);     
 
-        } else if(marker.iconImage == "icons/rockIcon.png"){
+        } else if(marker.iconImage == "icons/rockIcon.svg"){
             infoWindow.setContent(rock_content);
         
-        } else if(marker.iconImage == "icons/infoIcon.png"){
+        } else if(marker.iconImage == "icons/infoIcon.svg"){
             infoWindow.setContent(info_content);
         }
                                                                         //? on-click set the content of the info-window
