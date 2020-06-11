@@ -1,0 +1,25 @@
+{
+    "infoMarkers":[
+        {
+            "cords":{"lat":46.56021862127103,"lng":-87.40902230143546},
+            "iconImage":"icons/infoIcon.png",
+            "markerImage":"/images/info/pavilion.jpg",
+            "description":"Not Provided",
+            "name":"OLA Pavilion"
+         },
+         {
+            "cords":{"lat":46.560084,"lng":-87.408823},
+            "iconImage":"icons/infoIcon.png",
+            "markerImage":"/images/info/shed.jpg",
+            "description":"Not Provided",
+            "name":"OLA Maintenance Shed"
+         },
+         {
+            "cords":{"lat":46.560538,"lng":-87.408912},
+            "iconImage":"icons/infoIcon.png",
+            "markerImage":"/images/info/groundwater_monitoring_well.jpg",
+            "description":"Not Provided",
+            "name":"Groundwater Monitoring Well"
+         }
+    ]
+}

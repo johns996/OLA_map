@@ -5,10 +5,9 @@
 
 
 #map {
-        height: 600px; 
+        height: 800px; 
         width: 100%; 
-    
-   
+
 }
 #legend {
     font-family: Arial, sans-serif;
@@ -27,4 +26,10 @@
 .gm-style-iw {
     width: 340px; 
     min-height: 150px;
+  }
+
+  html, body {
+    height : 100%;
+    margin: 0;
+    padding: 0;
   }
