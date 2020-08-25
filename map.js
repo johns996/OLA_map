@@ -1,4 +1,6 @@
 // Nicholas Potyok | Start:[06/18/19]                               -->
+// Dan Gaechter | Start:[07/13/2020]
+
 //Comment Color Legend                                              -->
 //* [Title]                                                         -->
 //? [Explanation]                                                   -->
@@ -7,15 +9,14 @@
 //   View comment colors with VS code exstension: 'better comments' -->
 
 
+
 var map;
 var infoWindow;
 
 var rockMarkers = [];
 var plantMarkers = [];
-var treeMarkers = [];
-var shrubMarkers = [];
-var grassMarkers = [];
-var infoMarkers = [];
+var educationMarkers = [];
+var parksMarkers = [];
 
 
 
@@ -23,10 +24,6 @@ function initMap(){
     //* [Map properties] ---------------------------------------------------------------------------------------------
     var mapOptions= { 
         center:new google.maps.LatLng(46.559389,-87.409198),            //Config    [(Lat, Lon) is center of map]
-        restriction:{
-            latLngBounds: MAP_BOUNDS,
-            strictBounds : false,
-        },
         zoom:18,                                                        //Config    [Desired zoom]
         mapTypeId: google.maps.MapTypeId.SATELLITE,                     //Config    [Map type, options: (ROADMAP, SATELLITE, HYBRID, TERRAIN)]
         streetViewControl: false,                                       //Config    [False removes the streetview control icon]
@@ -53,21 +50,13 @@ function initMap(){
             name: 'Plant',
             icon: 'icons/plantIcon.png'
         },
-        Tree: {    
-            name: 'Tree',
-            icon: 'icons/treeIcon.png'
+        Parks: {
+            name: 'Parks',
+            icon: 'icons/parksIcon.png'
         },
-        Shrub: {    
-            name: 'Shrub',
-            icon: 'icons/shrubIcon.png'
-        },
-        Grass: {    
-            name: 'Grass',
-            icon: 'icons/grassIcon.png'
-        },
-        Info: {
-            name: 'Info',
-            icon: 'icons/infoIcon.png'
+        Education: {
+            name: 'Education',
+            icon: 'icons/eduIcon.png'
         }
     };
 
@@ -227,66 +216,34 @@ function initMap(){
     });
 
 
-    //tree
-    let requestTree = new Request("./JSONData/treeData.json");
+    //Parks
+    let requestParks = new Request("./JSONData/parksData.json");
 
-    fetch(requestTree)
-
-    .then(function(resp) {       
-        return resp.json();
-    })
-
-    .then(function(data) {
-        for(var i = 0;i < data.treeMarkers.length;i++){                             
-            addMarker(data.treeMarkers[i]);
-        }
-    });
-
-    
-    //shrub
-    let requestShrub = new Request("./JSONData/shrubData.json");
-
-    fetch(requestShrub)
+    fetch(requestParks)
 
     .then(function(resp) {       
         return resp.json();
     })
 
     .then(function(data) {
-        for(var i = 0;i < data.shrubMarkers.length;i++){                             
-            addMarker(data.shrubMarkers[i]);
+        for(var i = 0;i < data.parksMarkers.length;i++){                             
+            addMarker(data.parksMarkers[i]);
         }
     });
 
 
-    //grass
-    let requestGrass = new Request("./JSONData/grassData.json");
+    //Education
+    let requestEducation = new Request("./JSONData/educationData.json");
 
-    fetch(requestGrass)
-
-    .then(function(resp) {       
-        return resp.json();
-    })
-
-    .then(function(data) {
-        for(var i = 0;i < data.grassMarkers.length;i++){                             
-            addMarker(data.grassMarkers[i]);
-        }
-    });
-
-
-    //info
-    let requestInfo = new Request("./JSONData/infoData.json");
-
-    fetch(requestInfo)
+    fetch(requestEducation)
 
     .then(function(resp) {       
         return resp.json();
     })
 
     .then(function(data) {
-        for(var i = 0;i < data.infoMarkers.length;i++){                             
-            addMarker(data.infoMarkers[i]);
+        for(var i = 0;i < data.educationMarkers.length;i++){                             
+            addMarker(data.educationMarkers[i]);
         }
     });
 
@@ -316,6 +273,9 @@ function initMap(){
     map.controls[google.maps.ControlPosition.LEFT_TOP].push(document.getElementById('legend'));
 
     var check = document.getElementsByTagName('input');
+
+
+    
 
 }
 
@@ -363,7 +323,7 @@ function addMarker(props){                                          //? takes th
     '<center><img id="markerImage" src="'+props.markerImage+'"></center>' +
     '<p id="property"><b>Type:</b> '+props.type+'</p>' +
     '<p id="property"><b>Age:</b> '+props.age+'</p>' +
-    '<p id="property"><b>Description:</b> '+props.description+'</p>' ;
+    '<p id="property"><b>Description:</b> '+props.description+'</p>';
 
 
     var info_content = '<div id="content">' +
@@ -375,8 +335,7 @@ function addMarker(props){                                          //? takes th
 
     google.maps.event.addListener(marker, 'click', function(){           //? event to listen for a click on a marker 
 
-        //|||| "icons/plantIcon.png" || "icons/grassIcon.png"
-        if(marker.iconImage == "icons/treeIcon.png" || marker.iconImage == "icons/shrubIcon.png" || marker.iconImage == "icons/plantIcon.png" || marker.iconImage == "icons/grassIcon.png"){
+        if(marker.iconImage == "icons/plantIcon.png"){
             infoWindow.setContent(plant_content);     
             
 
@@ -384,7 +343,7 @@ function addMarker(props){                                          //? takes th
             infoWindow.setContent(rock_content);
             
         
-        } else if(marker.iconImage == "icons/infoIcon.png"){
+        } else if(marker.iconImage == "icons/parksIcon.png" || marker.iconImage == "icons/eduIcon.png"){
             infoWindow.setContent(info_content);
         }
 
@@ -397,16 +356,39 @@ function addMarker(props){                                          //? takes th
         rockMarkers.push(marker);
     }else if(marker.iconImage == "icons/plantIcon.png"){
         plantMarkers.push(marker);
-    }else if(marker.iconImage == "icons/treeIcon.png"){
-        treeMarkers.push(marker);
-    }else if(marker.iconImage == "icons/shrubIcon.png"){
-        shrubMarkers.push(marker);
-    }else if(marker.iconImage == "icons/grassIcon.png"){
-        grassMarkers.push(marker);
-    }else if(marker.iconImage == "icons/infoIcon.png"){
-        infoMarkers.push(marker);
+    }else if(marker.iconImage == "icons/parksIcon.png"){
+        parksMarkers.push(marker);
+    }else if(marker.iconImage == "icons/eduIcon.png"){
+        educationMarkers.push(marker);
     }
+
+
+
+    
 }
+
+
+//var markerClusterPlant
+//var markerClusterParks
+//var markerClusterEducation
+
+//marker clusters
+//function loadScript(src, callback) {
+//    let script = document.createElement('script');
+//    script.src = src;
+
+//    script.onload = () => callback(script);
+
+//    document.head.append(script);
+//}
+
+//loadScript('https://cdn.rawgit.com/googlemaps/js-marker-clusterer/gh-pages/src/markerclusterer.js', function() {
+//    markerClusterRock = new MarkerClusterer(map, rockMarkers, {imagePath: 'node_modules\markerclustererplus\images'});
+//    markerClusterPlant = new MarkerClusterer(map, plantMarkers);
+//    markerClusterParks = new MarkerClusterer(map, parksMarkers);
+//    markerClusterEducation = new MarkerClusterer(map, educationMarkers);
+//});
+
 
 
 
@@ -421,7 +403,12 @@ function RockCheckbox()
         for(var i=0; i<rockMarkers.length; i++)
         {
             rockMarkers[i].setMap(map);
+            
         }
+        var markerClusterRock = new MarkerClusterer(map, rockMarkers, {
+            imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m',
+            maxZoom: 19
+        });
     }
 
     function clearMarkers()
@@ -432,6 +419,7 @@ function RockCheckbox()
     function showMarkers()
     {
         setMapOnAll(map);
+        
     }
 
 
@@ -440,13 +428,13 @@ function RockCheckbox()
 
     if(rockCheckbox.checked == true)
     {
-        text.style.display = "block";
+        //text.style.display = "block";
         showMarkers();
         
     }
     else 
     {
-        text.style.display = "none";
+        //text.style.display = "none";
         clearMarkers();
     }
 }
@@ -460,6 +448,10 @@ function PlantCheckbox()
         {
             plantMarkers[i].setMap(map);
         }
+        var markerClusterPlant = new MarkerClusterer(map, plantMarkers, {
+            imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m',
+            maxZoom: 19
+        });
     }
 
     function clearMarkers()
@@ -474,141 +466,34 @@ function PlantCheckbox()
     
     //check if the plant checkbox is checked
     var plantCheckbox = document.getElementById("icons/plantIcon.png");
-    var text = document.getElementById("text1");
+    //var text = document.getElementById("text1");
 
     if(plantCheckbox.checked == true)
     {
-        text.style.display = "block";
+        //text.style.display = "block";
         showMarkers();
     }
     else 
     {
-        text.style.display = "none";
+        //text.style.display = "none";
         clearMarkers();
     }
 }
 
 
-function TreeCheckbox()
+
+function EducationCheckbox()
 {
     function setMapOnAll(map)
     {
-        for(var i=0; i<treeMarkers.length; i++)
+        for(var i=0; i<educationMarkers.length; i++)
         {
-            treeMarkers[i].setMap(map);
+            educationMarkers[i].setMap(map);
         }
-    }
-
-    function clearMarkers()
-    {
-        setMapOnAll(null);
-    }
-
-    function showMarkers()
-    {
-        setMapOnAll(map);
-    }
-
-
-    //check if the tree checkbox is checked
-    var treeCheckbox = document.getElementById("icons/treeIcon.png");
-    var text = document.getElementById("text2");
-
-    if(treeCheckbox.checked == true)
-    {
-        text.style.display = "block";
-        showMarkers()
-    }
-    else 
-    {
-        text.style.display = "none";
-        clearMarkers()
-    }
-}
-
-
-function ShrubCheckbox()
-{
-    function setMapOnAll(map)
-    {
-        for(var i=0; i<shrubMarkers.length; i++)
-        {
-            shrubMarkers[i].setMap(map);
-        }
-    }
-
-    function clearMarkers()
-    {
-        setMapOnAll(null);
-    }
-
-    function showMarkers()
-    {
-        setMapOnAll(map);
-    }
-    
-    //check if the shrub checkbox is checked
-    var shrubCheckbox = document.getElementById("icons/shrubIcon.png");
-    var text = document.getElementById("text3");
-
-    if(shrubCheckbox.checked == true)
-    {
-        text.style.display = "block";
-        showMarkers()
-    }
-    else 
-    {
-        text.style.display = "none";
-        clearMarkers()
-    }
-}
-
-
-function GrassCheckbox()
-{
-    function setMapOnAll(map)
-    {
-        for(var i=0; i<grassMarkers.length; i++)
-        {
-            grassMarkers[i].setMap(map);
-        }
-    }
-
-    function clearMarkers()
-    {
-        setMapOnAll(null);
-    }
-
-    function showMarkers()
-    {
-        setMapOnAll(map);
-    }
-    
-    //check if the grass checkbox is checked
-    var grassCheckbox = document.getElementById("icons/grassIcon.png");
-    var text = document.getElementById("text4");
-
-    if(grassCheckbox.checked == true)
-    {
-        text.style.display = "block";
-        showMarkers()
-    }
-    else 
-    {
-        text.style.display = "none";
-        clearMarkers()
-    }
-}
-
-
-function InfoCheckbox()
-{
-    function setMapOnAll(map)
-    {
-        for(var i=0; i<infoMarkers.length; i++)
-        {
-            infoMarkers[i].setMap(map);
-        }
+        var markerClusterEducation = new MarkerClusterer(map, educationMarkers, {
+            imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m',
+            maxZoom: 19
+        });
     }
 
     function clearMarkers()
@@ -622,17 +507,57 @@ function InfoCheckbox()
     }
     
     //check if the info checkbox is checked
-    var infoCheckbox = document.getElementById("icons/infoIcon.png");
-    var text = document.getElementById("text5");
+    var educationCheckbox = document.getElementById("icons/eduIcon.png");
+    //var text = document.getElementById("text5");
 
-    if(infoCheckbox.checked == true)
+    if(educationCheckbox.checked == true)
     {
-        text.style.display = "block";
+        //text.style.display = "block";
         showMarkers()
     }
     else 
     {
-        text.style.display = "none";
+        //text.style.display = "none";
+        clearMarkers()
+    }
+}
+
+function ParksCheckbox()
+{
+    function setMapOnAll(map)
+    {
+        for(var i=0; i<parksMarkers.length; i++)
+        {
+            parksMarkers[i].setMap(map);
+        }
+        var markerClusterParks = new MarkerClusterer(map, parksMarkers, {
+            imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m',
+            maxZoom: 19
+        });
+    }
+
+    function clearMarkers()
+    {
+        setMapOnAll(null);
+    }
+
+    function showMarkers()
+    {
+        setMapOnAll(map);
+    }
+    
+    //check if the info checkbox is checked
+    var parksCheckbox = document.getElementById("icons/parksIcon.png");
+    //var text = document.getElementById("text5");
+
+    if(parksCheckbox.checked == true)
+    {
+        //text.style.display = "block";
+        showMarkers()
+    }
+    else 
+    {
+        //text.style.display = "none";
         clearMarkers()
     }
 }

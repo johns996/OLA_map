@@ -1,0 +1,25 @@
+{
+    "parksMarkers":[
+        {
+         "cords":{"lat":46.560092,"lng":-87.408666},
+            "iconImage":"icons/parksIcon.png",
+            "markerImage":"/images/info/pavilion.jpg",
+            "description":"Not Provided",
+            "name":"Native Plant Park"
+         },
+         {
+            "cords":{"lat":46.559251,"lng":-87.409206},
+            "iconImage":"icons/parksIcon.png",
+            "markerImage":"/images/info/shed.jpg",
+            "description":"Not Provided",
+            "name":"Geo Park"
+         },
+         {
+            "cords":{"lat":46.558490,"lng":-87.409919},
+            "iconImage":"icons/parksIcon.png",
+            "markerImage":"/images/info/groundwater_monitoring_well.jpg",
+            "description":"Not Provided",
+            "name":"Eco Park"
+         }
+    ]
+}

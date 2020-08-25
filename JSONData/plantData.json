@@ -269,6 +269,166 @@
             "markerImage":"/images/",
             "link":"https://www.wildflower.org/plants/result.php?id_plant=AGUR",
             "description":"Agastache, from the Greek agan (much) and stachys (ear of grain), refers to the flower clusters. The spikes, short corolla lobes, and protruding stamens are distinctive."
+         },
+        {
+            "name":"Switchgrass",
+            "scientificName":"Panicum virgatum",
+            "type":"Grass",
+            "cords":{"lat":46.559380,"lng":-87.409278},
+            "iconImage":"icons/plantIcon.png",
+            "markerImage":"/images/grass/switchgrass_origin.jpg",
+            "link":"https://plants.usda.gov/factsheet/pdf/fs_pavi2.pdf",
+            "description":"Clump-forming, warm-season grass with open, lacy sprays with small seeds. Panicum virgatum L., switchgrass, is native to all of the United States except California and the Pacific Northwest. It is a perennial sod-forming grass that grows 3 to 5 feet tall and can be distinguished from other warm-season grasses, even when plants are young, by the white patch of hair at the point where the leaf attaches to the stem."
+         },
+        {
+            "name":"Unknown until fruiting",
+            "scientificName":"Prunus sp.",
+            "type":"Tree",
+            "cords":{"lat":46.559222,"lng":-87.408972},
+            "iconImage":"icons/plantIcon.png",
+            "markerImage":"/images/tree/prunus_origin.jpg",
+            "description":"Prunus is a genus of trees and shrubs, which includes the fruits plums, cherries, peaches, nectarines, apricots, and almonds. Native to the northern temperate regions. Many members of the genus are widely cultivated for their fruit and for decorative purposes.",
+            "link":"https://michiganflora.net/genus.aspx?id=Prunus"
+         },
+         {
+            "name":"Maple",
+            "scientificName":"Acer saccharum",
+            "type":"Tree",
+            "cords":{"lat":46.559167,"lng":-87.409083},
+            "iconImage":"icons/plantIcon.png",
+            "markerImage":"/images/tree/maple_origin.jpg",
+            "link":"https://www.fs.fed.us/database/feis/plants/tree/acesac/all.html ",
+            "description":"Large tree with rounded, dense crown and striking, multicolored foliage in autumn. Bark (Tough outer covering of trunks or stems of trees, shrubs, and vines.) is smooth in youth, becoming quite shaggy with age. Its straight, central trunk; wide-spreading branches; and pointed crown are all attractive landscape characteristics but are less noted than the species’ brilliant red, yellow and orange fall foliage. Each tree yields between 5 and 60 gallons of sap per year; about 32 gallons of sap make 1 gallon of syrup or 4 1/2 pounds of sugar. One of the best of the larger shade trees. It is susceptible to salt."
+         },
+         {
+            "name":"Pawpaw",
+            "scientificName":"Asimina triloba",
+            "type":"Tree",
+            "cords":{"lat":46.559111,"lng":-87.409111},
+            "iconImage":"icons/plantIcon.png",
+            "markerImage":"/images/tree/pawpaw_origin.jpg",
+            "link":"http://www.uky.edu/hort/Pawpaw",
+            "description":"Pawpaw grows in thickets in the forest understory and along woodland edges. It is the native plant that produces the largest edible fruit in North America."
+         },
+         {
+            "name":"Apple Tree",
+            "scientificName":"Malus sp.",
+            "type":"Tree",
+            "cords":{"lat":46.559111,"lng":-87.409139},
+            "iconImage":"icons/plantIcon.png",
+            "markerImage":"/images/tree/apple_tree_origin.jpg",
+            "link":"https://www.mortonarb.org/trees-plants/tree-plant-descriptions/crabapple-cultivars ",
+            "description":"Crabapples are versatile, small, ornamental trees used in the urban landscape. Crabapples bloom in spring, usually in May, bearing flowers that vary a great deal in color, size, fragrance, and visual appeal."   
+         },
+         {
+            "name":"Norway maple",
+            "scientificName":"Acer platanoides",
+            "type":"Tree",
+            "cords":{"lat":46.559139,"lng":-87.409278},
+            "iconImage":"icons/plantIcon.png",
+            "markerImage":"/images/tree/norway_maple_origin.jpg",
+            "link":"https://www.mortonarb.org/trees-plants/tree-plant-descriptions/norway-maple-not-recommended ",
+            "description":"A hardy and vigorous growing tree that can withstand all the indignities of being planted next to a road, as well as extreme heat and cold, droughts, car exhaust fumes, and road salt near their roots. Norway maples have invasive traits that enable them to spread aggressively. Norway maple is known for its tolerance of urban conditions, but it often becomes a weedy plant through self-seeding." 
+         },
+         {
+            "name":"Norway Maple",
+            "scientificName":"Acer platonoides",
+            "type":"Tree",
+            "cords":{"lat":46.559306,"lng":-87.409333},
+            "iconImage":"icons/plantIcon.png",
+            "markerImage":"/images/tree/norway_maple_2_origin.jpg",
+            "link":"https://www.mortonarb.org/trees-plants/tree-plant-descriptions/norway-maple-not-recommended ",
+            "description":"A hardy and vigorous growing tree that can withstand all the indignities of being planted next to a road, as well as extreme heat and cold, droughts, car exhaust fumes, and road salt near their roots. Norway maples have invasive traits that enable them to spread aggressively. Norway maple is known for its tolerance of urban conditions, but it often becomes a weedy plant through self-seeding."
+         },
+         {
+            "name":"Norway Maple",
+            "scientificName":"Acer platonoides",
+            "type":"Tree",
+            "cords":{"lat":46.559222,"lng":-87.409194},
+            "iconImage":"icons/plantIcon.png",
+            "markerImage":"/images/tree/norway_maple_3_origin.jpg",
+            "link":"https://www.mortonarb.org/trees-plants/tree-plant-descriptions/norway-maple-not-recommended ",
+            "description":"A hardy and vigorous growing tree that can withstand all the indignities of being planted next to a road, as well as extreme heat and cold, droughts, car exhaust fumes, and road salt near their roots. Norway maples have invasive traits that enable them to spread aggressively. Norway maple is known for its tolerance of urban conditions, but it often becomes a weedy plant through self-seeding."
+         },
+         {
+            "name":"Wild/Sweet Cherry",
+            "scientificName":"Prunus avium",
+            "type":"Tree",
+            "cords":{"lat":46.559278,"lng":-87.409222},
+            "iconImage":"icons/plantIcon.png",
+            "markerImage":"/images/tree/wild_sweet_cherry_origin.jpg",
+            "link":"https://plants.ces.ncsu.edu/plants/prunus-avium/",
+            "description":"Although no specific mention has been seen for this species, it belongs to a genus where most, if not all members of the genus produce hydrogen cyanide, a poison that gives almonds their characteristic flavour. This toxin is found mainly in the leaves and seed and is readily detected by its bitter taste. It is usually present in too small a quantity to do any harm but any very bitter seed or fruit should not be eaten."
+         },
+         {
+            "name":"White Oak",
+            "scientificName":"Quercus alba",
+            "type":"Tree ",
+            "cords":{"lat":46.559340,"lng":-87.409197},
+            "iconImage":"icons/plantIcon.png",
+            "markerImage":"/images/tree/white_oak_origin.jpg",
+            "link":"https://www.fs.fed.us/database/feis/plants/tree/quealb/all.html",
+            "description":"The classic eastern oak, with wide spreading branches and a rounded crown, the trunk irregularly divided into spreading, often horizontal, stout branches. Northern white oak is an imposing, deciduous tree, 80-100 ft. tall, with a straight trunk and a wide (when open-grown) crown. Large, coarse, horizontal limbs are picturesque. Catkins appear just before or with the appearance of new leaves. The round-lobed leaves turn burgundy in fall. Dried leaves remain into winter."
+         },
+         {
+            "name":"Red Maple",
+            "scientificName":"Acer saccharum",
+            "type":"Tree",
+            "cords":{"lat":46.559345,"lng":-87.409060},
+            "iconImage":"icons/plantIcon.png",
+            "markerImage":"/images/tree/red_maple_origin.jpg",
+            "link":"https://www.fs.fed.us/database/feis/plants/tree/acesac/all.html ",
+            "description":"Large tree with rounded, dense crown and striking, multicolored foliage in autumn. Bark (Tough outer covering of trunks or stems of trees, shrubs, and vines.) is smooth in youth, becoming quite shaggy with age. Its straight, central trunk; wide-spreading branches; and pointed crown are all attractive landscape characteristics but are less noted than the species’ brilliant red, yellow and orange fall foliage. Each tree yields between 5 and 60 gallons of sap per year; about 32 gallons of sap make 1 gallon of syrup or 4 1/2 pounds of sugar. One of the best of the larger shade trees. It is susceptible to salt."
+         },
+        {
+            "name":"Round-leaf Dogwood",
+            "scientificName":"Cornus rugosa",
+            "type":"Shrub",
+            "cords":{"lat":46.559306,"lng":-87.409278},
+            "iconImage":"icons/plantIcon.png",
+            "markerImage":"/images/shrub/round_leaf_dogwood_origin.jpg",
+            "link":"https://www.minnesotawildflowers.info/shrub/round-leaved-dogwood ",
+            "description":"Dogwoods are distinguished from other flowering shrubs by the clusters of small, 4-petaled white flowers and opposite (except for 1 species) leaves that are toothless and have prominent, arching, lateral veins."
+         },
+         {
+            "name":"Common Ninebark",
+            "scientificName":"Physocarpus opulifolius",
+            "type":"Shrub",
+            "cords":{"lat":46.559333,"lng":-87.409167},
+            "iconImage":"icons/plantIcon.png",
+            "markerImage":"/images/shrub/common_ninebark_origin.jpg",
+            "link":"https://www.mortonarb.org/trees-plants/tree-plant-descriptions/common-ninebark ",
+            "description":"Atlantic ninebark offers spiraea-like flowers, attractive and persistent fruit pods, arching branches, yellow fall color, and exfoliating bark. Atlantic Ninebark is fast-growing, insect and disease resistant, and drought-tolerant."
+         },
+         {
+            "name":"Common Lilac",
+            "scientificName":"Syringa vulgaris",
+            "type":"Shrub",
+            "cords":{"lat":46.559280,"lng":-87.409088},
+            "iconImage":"icons/plantIcon.png",
+            "markerImage":"/images/shrub/lilac_origin.jpg",
+            "link":"https://www.hedgesonline.co.uk/deciduous-shrubs-and-hedges/lilac-hedging.html",
+            "description":"The common lilac is native to the Balkan Peninsula, where it still grows on rocky hills to this day. This species of hedging plant does well in the full sun and partial shade."
+         },
+         {
+            "name":"Creeping Juniper",
+            "scientificName":"Juniperus horizontalis",
+            "type":"Shrub",
+            "cords":{"lat":46.559279,"lng":-87.409111},
+            "iconImage":"icons/plantIcon.png",
+            "markerImage":"/images/shrub/creeping_juniper_origin.jpg",
+            "link":"https://www.wildflower.org/plants/result.php?id_plant=juho2 ",
+            "description":"Juniper is a coniferous plant of the Cypress family. They can be recognized by their needle shaped leaves, which turn scaly as the plant matures. Juniper trees have characteristic blue-colored berries at the ends of their branches. All juniper types produce cones."
+         },
+         {
+            "name":"Japanese Yew",
+            "scientificName":"Taxus cuspidata",
+            "type":"Shrub",
+            "cords":{"lat":46.559169,"lng":-87.409390},
+            "iconImage":"icons/plantIcon.png",
+            "markerImage":"/images/shrub/japanese_yew_origin.jpg",
+            "link":"https://www.thespruce.com/japanese-yews-and-english-yew-bushes-2132068",
+            "description":"The oil derived from yew bushes, taxol, is used for treating breast and ovarian cancer, but all parts of yew bushes are poisonous to animals and humans (except for the fleshy red berry)."
          }
     ]
 }
