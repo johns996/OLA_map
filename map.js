@@ -32,13 +32,6 @@ function initMap(){
 
     map = new google.maps.Map(document.getElementById('map'), mapOptions);      //? [creates new map]
 
-    //* adding bounds to the map
-    var MAP_BOUNDS = {
-        north:46.561307,
-        south:46.557422,
-        east:-87.403815,
-        west:-87.414469,
-    };
 
     //* array of icon types -----------------------------------------------------------------------------------------
     var icons = {
@@ -368,30 +361,6 @@ function addMarker(props){                                          //? takes th
 }
 
 
-//var markerClusterPlant
-//var markerClusterParks
-//var markerClusterEducation
-
-//marker clusters
-//function loadScript(src, callback) {
-//    let script = document.createElement('script');
-//    script.src = src;
-
-//    script.onload = () => callback(script);
-
-//    document.head.append(script);
-//}
-
-//loadScript('https://cdn.rawgit.com/googlemaps/js-marker-clusterer/gh-pages/src/markerclusterer.js', function() {
-//    markerClusterRock = new MarkerClusterer(map, rockMarkers, {imagePath: 'node_modules\markerclustererplus\images'});
-//    markerClusterPlant = new MarkerClusterer(map, plantMarkers);
-//    markerClusterParks = new MarkerClusterer(map, parksMarkers);
-//    markerClusterEducation = new MarkerClusterer(map, educationMarkers);
-//});
-
-
-
-
 
 
 // Functions for checkbox functionality --------------------------------------------------------------------------
@@ -405,6 +374,7 @@ function RockCheckbox()
             rockMarkers[i].setMap(map);
             
         }
+        
         var markerClusterRock = new MarkerClusterer(map, rockMarkers, {
             imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m',
             maxZoom: 19
@@ -425,6 +395,7 @@ function RockCheckbox()
 
     //check if the rock checkbox is checked
     var rockCheckbox = document.getElementById("icons/rockIcon.png");
+
 
     if(rockCheckbox.checked == true)
     {
@@ -561,3 +532,4 @@ function ParksCheckbox()
         clearMarkers()
     }
 }
+
