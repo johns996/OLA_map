@@ -1,5 +1,5 @@
-// Nicholas Potyok | Start:[06/18/19]                               -->
-// Dan Gaechter | Start:[07/13/2020]
+// Nicholas Potyok | Start:[06/18/19] End:[07/13/2020]
+// Dan Gaechter | Start:[07/13/2020] End:[10/16/2020]
 
 //Comment Color Legend                                              -->
 //* [Title]                                                         -->
@@ -30,19 +30,12 @@ function initMap(){
         mapTypeControl: false,                                          //Config    [False removes the maptype control icon]
     };
 
-    map = new google.maps.Map(document.getElementById('map'), mapOptions);      //? [creates new map]
+    // [creates new map]
+    map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
 
     //* array of icon types -----------------------------------------------------------------------------------------
     var icons = {
-        Rock: {    
-            name: 'Rock',
-            icon: 'icons/rockIcon.png'
-        },
-        Plant: {    
-            name: 'Plant',
-            icon: 'icons/plantIcon.png'
-        },
         Parks: {
             name: 'Parks',
             icon: 'icons/parksIcon.png'
@@ -50,6 +43,14 @@ function initMap(){
         Education: {
             name: 'Education',
             icon: 'icons/eduIcon.png'
+        },
+        Rock: {    
+            name: 'Rock',
+            icon: 'icons/rockIcon.png'
+        },
+        Plant: {    
+            name: 'Plant',
+            icon: 'icons/plantIcon.png'
         }
     };
 
@@ -64,6 +65,8 @@ function initMap(){
         fillColor:"#13a8bf",                                            //Config    [fill (color / opacity) values]
         fillOpacity:0.3
     });
+    //*----------------------------------------------------------------------------------------------------------
+
 
     //* [NativePlantPark overlay properties] --------------------------------------------------------------------
     var npp = [
@@ -115,6 +118,8 @@ function initMap(){
         fillColor:"#397C37",                                            //Config    [fill (color / opacity) values]
         fillOpacity:0.3
     });
+    //*----------------------------------------------------------------------------------------------------------
+
 
     //* [Ecopark overlay properties] --------------------------------------------------------------------
     var ecoPark = [
@@ -137,9 +142,11 @@ function initMap(){
         strokeColor: "0000FF",                                          //Config    [border (color / opacity / thickness) values]
         strokeOpacity:0.8,                                              
         strokeWeight:2,
-        fillColor:"#927646",                                           //Config    [fill (color / opacity) values]
+        fillColor:"#927646",                                            //Config    [fill (color / opacity) values]
         fillOpacity:0.3
     });
+    //*----------------------------------------------------------------------------------------------------------
+
 
     //* [whitman woods overlay properties] --------------------------------------------------------------------
     var whitmanWoods = [
@@ -158,23 +165,56 @@ function initMap(){
         fillColor:"#12b090",                                            //Config    [fill (color / opacity) values]
         fillOpacity:0.3
     });
+    //*----------------------------------------------------------------------------------------------------------
 
 
-    //* setting the area onto the map
+    // setting the area onto the map
     geoParkArea.setMap(map);
     ecoPark.setMap(map);
     nativePlantPark.setMap(map);
     whitmanWoods.setMap(map);
 
 
-    //* Creates an info window object.
+    // Creates an info window object.
     infoWindow = new google.maps.InfoWindow({
         maxWidth: 305
     });
 
 
 
-    // requesting all JSON files ----------------------------------------------------------
+    // requesting all JSON files --------------------------------------------------------------------------------
+
+
+    //Parks
+    let requestParks = new Request("./JSONData/parksData.json");
+
+    fetch(requestParks)
+
+    .then(function(resp) {       
+        return resp.json();
+    })
+
+    .then(function(data) {
+        for(var i = 0;i < data.parksMarkers.length;i++){                             
+            addMarker(data.parksMarkers[i]);
+        }
+    });
+
+
+    //Education
+    let requestEducation = new Request("./JSONData/educationData.json");
+
+    fetch(requestEducation)
+
+    .then(function(resp) {       
+        return resp.json();
+    })
+
+    .then(function(data) {
+        for(var i = 0;i < data.educationMarkers.length;i++){                             
+            addMarker(data.educationMarkers[i]);
+        }
+    });
 
 
     //rock
@@ -209,41 +249,14 @@ function initMap(){
     });
 
 
-    //Parks
-    let requestParks = new Request("./JSONData/parksData.json");
-
-    fetch(requestParks)
-
-    .then(function(resp) {       
-        return resp.json();
-    })
-
-    .then(function(data) {
-        for(var i = 0;i < data.parksMarkers.length;i++){                             
-            addMarker(data.parksMarkers[i]);
-        }
-    });
 
 
-    //Education
-    let requestEducation = new Request("./JSONData/educationData.json");
 
-    fetch(requestEducation)
-
-    .then(function(resp) {       
-        return resp.json();
-    })
-
-    .then(function(data) {
-        for(var i = 0;i < data.educationMarkers.length;i++){                             
-            addMarker(data.educationMarkers[i]);
-        }
-    });
 
     
 
     
-    //* Legend Content -----------------------------------------------------
+    //* Legend Content ----------------------------------------------------------------------------------------
     var legend = document.getElementById('legend');
 
     for (var key in icons) {
@@ -277,7 +290,7 @@ function initMap(){
 
 
 
-//  Marker functionality -----------------------------------------------
+//  Marker functionality -----------------------------------------------------------------------------------------
 
 function addMarker(props){                                          //? takes the argument "props" which will hold the unique properties of each marker being created
     var marker = new google.maps.Marker({
@@ -300,8 +313,7 @@ function addMarker(props){                                          //? takes th
     }
 
 
-    //*  Info_window_functionality -----------------------------------------------
-
+    //*  Info_window_functionality ---------------------------------------------------------------------------------
     var plant_content = '<div id="content">' +
     '<h1 id="title"> '+props.name+'</h1>' + 
     '<center><img id="markerImage" src="'+props.markerImage+'"></center>' +
@@ -309,7 +321,6 @@ function addMarker(props){                                          //? takes th
     '<p id="property"><b>Type:</b> '+props.type+'</p>' +
     '<p id="property"><b>Description:</b> '+props.description+'</p>' +
     '<a id="link" href='+props.link+' target="_blank">Learn More</a>';
-
 
     var rock_content = '<div id="content">' +
     '<h1 id="title"> '+props.name+'</h1>' + 
@@ -325,8 +336,8 @@ function addMarker(props){                                          //? takes th
     '<p id="property"><b>Description:</b> '+props.description+'</p>';
 
 
-
-    google.maps.event.addListener(marker, 'click', function(){           //? event to listen for a click on a marker 
+    // event to listen for a click on a marker 
+    google.maps.event.addListener(marker, 'click', function(){
 
         if(marker.iconImage == "icons/plantIcon.png"){
             infoWindow.setContent(plant_content);     
@@ -340,7 +351,8 @@ function addMarker(props){                                          //? takes th
             infoWindow.setContent(info_content);
         }
 
-        infoWindow.open(map, marker);                           //? then open it
+
+        infoWindow.open(map, marker);
         console.log(marker.image);
         console.log(marker.iconImage);
     });
@@ -354,10 +366,6 @@ function addMarker(props){                                          //? takes th
     }else if(marker.iconImage == "icons/eduIcon.png"){
         educationMarkers.push(marker);
     }
-
-
-
-    
 }
 
 
@@ -399,13 +407,11 @@ function RockCheckbox()
 
     if(rockCheckbox.checked == true)
     {
-        //text.style.display = "block";
         showMarkers();
         
     }
     else 
     {
-        //text.style.display = "none";
         clearMarkers();
     }
 }
@@ -437,16 +443,13 @@ function PlantCheckbox()
     
     //check if the plant checkbox is checked
     var plantCheckbox = document.getElementById("icons/plantIcon.png");
-    //var text = document.getElementById("text1");
 
     if(plantCheckbox.checked == true)
     {
-        //text.style.display = "block";
         showMarkers();
     }
     else 
     {
-        //text.style.display = "none";
         clearMarkers();
     }
 }
@@ -479,16 +482,13 @@ function EducationCheckbox()
     
     //check if the info checkbox is checked
     var educationCheckbox = document.getElementById("icons/eduIcon.png");
-    //var text = document.getElementById("text5");
 
     if(educationCheckbox.checked == true)
     {
-        //text.style.display = "block";
         showMarkers()
     }
     else 
     {
-        //text.style.display = "none";
         clearMarkers()
     }
 }
@@ -519,17 +519,17 @@ function ParksCheckbox()
     
     //check if the info checkbox is checked
     var parksCheckbox = document.getElementById("icons/parksIcon.png");
-    //var text = document.getElementById("text5");
 
     if(parksCheckbox.checked == true)
     {
-        //text.style.display = "block";
         showMarkers()
     }
     else 
     {
-        //text.style.display = "none";
         clearMarkers()
     }
 }
 
+//TODO - markers are not clustered on start up, only after the check box is checked and then unchecked
+//TODO - Find a way to change the cluster images
+//TODO - Update google maps API key
