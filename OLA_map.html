@@ -10,10 +10,12 @@
 
 <html>
 
-    <head>
-        <h1> OLA Map </h1>
-            <link rel="stylesheet" href="OLA_map_style.css">
-    </head>
+<head>
+    <h1> OLA Map </h1>
+
+    <link rel="stylesheet" href="OLA_map_style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
 
 
@@ -23,10 +25,8 @@
 <!--* [Container for Legend] -->
     <div id='legend'></div>
 <!--* [link to map.js file-->
-    <script src="./map.js"></script> 
+    <script defer src="./map.js"></script> 
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqD0Ls2AOD1e3JjRsYgdijoC-eshUPvB4&callback=initMap" type="text/javascript"></script> 
-
+    <script defer src="https://cdn.rawgit.com/googlemaps/js-marker-clusterer/gh-pages/src/markerclusterer.js" type="text/javascript"></script> 
 </body>
-
-
 </html>

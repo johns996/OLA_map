@@ -4,12 +4,10 @@
 
 
 
-
 #map {
-        height: 600px; 
+        height: 800px;
         width: 100%; 
-    
-   
+
 }
 #legend {
     font-family: Arial, sans-serif;
@@ -18,8 +16,24 @@
     margin: 10px;
     border: 3px solid rgb(107, 107, 107);
   }
-
-.checkbox {
-    left: 0px;
-    font-family: 'Courier New', Courier, monospace;
+#frame{
+    width: 24.5%;
+    height: 80%;
+    float: right;
+    margin: 0;
 }
+
+#markerImage {
+  width: 270px;
+}
+
+.gm-style-iw {
+    width: 340px;
+    min-height: 150px;
+  }
+
+  html, body {
+    height : 100%;
+    margin: 0;
+    padding: 0;
+  }

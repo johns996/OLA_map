@@ -1,0 +1,112 @@
+{
+    "rockMarkers": [
+       {
+          "cords":{"lat":46.559384,"lng":-87.409078},
+          "iconImage":"icons/rockIcon.png",
+          "markerImage":"/images/rock/compeau_creek_gneiss.jpg",
+          "description":"Granitic parent material subjected to low-grade metamorphism. This specimen looks like a granite, but has been metamorphosed, as evidenced by parallel alignment of platy or needle shaped ferromagnesian minerals. Common bedrock of Marquette. Visible foliation.",
+          "age":"More than 2.7 billion years old.",
+          "type":"Intrusive igneous (metamorphosed to gneiss)/Metamorphic, Foliated.",
+          "name":"Compeau Creek Gneiss"
+       },
+       {
+          "cords":{"lat":46.559353,"lng":-87.409153},
+          "iconImage":"icons/rockIcon.png",
+          "markerImage":"/images/rock/gabbro.jpg",
+          "description":"Deposited as an intrusive mafic igneous rock within the Earth.",
+          "age":"Unknown",
+          "type":"Intrusive igneous",
+          "name":"Gabbro"
+       },
+       {
+          "cords":{"lat":46.559340,"lng":-87.409230},
+          "iconImage":"icons/rockIcon.png",
+          "markerImage":"/images/rock/kona_dolomite.jpg",
+          "description":"From the Linberg quarry located between Marquette and Negaunee. Interlaminated beds of quartzite and carbonate. Originally deposited in a mid-depth to shallow sea environment as a chemical sedimentary deposit. Some specimens are often interbedded with slate and/or stromatolites.",
+          "age":"Approximately 2.2 billion years old.",
+          "type":"Sedimentary/Metamorphic - banded",
+          "name":"Kona Dolomite"
+       },
+       {
+          "cords":{"lat":46.559320,"lng":-87.409390},
+          "iconImage":"icons/rockIcon.png",
+          "markerImage":"/images/rock/red_granite.jpg",
+          "description":"Iron rich deposit. Specimen contains some orthoclase feldspar, which gives the specimen its pink color.  Smoky quartz crystals are visible and common within this specimen.",
+          "age":"Unknown",
+          "type":"Intrusive, igneous, felsic",
+          "name":"Red Granite"
+       },
+       {
+          "cords":{"lat":46.559274,"lng":-87.409406},
+          "iconImage":"icons/rockIcon.png",
+          "markerImage":"/images/rock/gabbro_2.jpg",
+          "description":"This specimen from the Eagle Mine contains low grade sulfide ore deposits. It was deposited as a sill where rising magma exploited weaknesses in pre-existing formation. Metal (and ion) rich hydrothermal fluids deposited high-grade nickel ore within/adjacent to sill. Chalcopyrite (fools gold) and pendlandite (lighter gold) minerals can be seen on surface of specimen.",
+          "age":"Unknown",
+          "type":"Intrusive igneous",
+          "name":"Gabbro"
+       },
+       {
+          "cords":{"lat":46.559230,"lng": -87.409350},
+          "iconImage":"icons/rockIcon.png",
+          "markerImage":"/images/rock/chemical_limestone.jpg",
+          "description":"Deposited in mid to shallow seas as calcium carbonate precipitated out of solution, and were interbedded with blue-green algal mats known as stromatolites (~2 billion years ago). Stramotolites are fossilized algae, the first evidence of single celled organisms (eukaryotes) on the planet)",
+          "age":"Unknown",
+          "type":"Sedimentary, Chemical",
+          "name":"Chemical Limestone"
+       },
+       {
+          "cords":{"lat":46.559233,"lng":-87.409249},
+          "iconImage":"icons/rockIcon.png",
+          "markerImage":"/images/rock/quartzite.jpg",
+          "description":"Mesnard quartizite. Originally deposited as sandstone; quartz grains grew during subsequent metamorphism.  Original bedding of sandstone can be detected as faint bands within specimen.",
+          "age":"Unknown",
+          "type":"Unknown",
+          "name":"Quartzite"
+       },
+       {
+          "cords":{"lat":46.559159,"lng":-87.409243},
+          "iconImage":"icons/rockIcon.png",
+          "markerImage":"/images/rock/bell_creek_gneiss.jpg",
+          "description":"Not Provided",
+          "age":"Unknown",
+          "type":"Metamorphosed granite",
+          "name":"Bell Creek Gneiss"
+       },
+       {
+          "cords":{"lat":46.559163,"lng":-87.409170},
+          "iconImage":"icons/rockIcon.png",
+          "markerImage":"/images/rock/banded_iron_formation.jpg",
+          "description":"Negaunee Iron Formation. A local iron ore. Characterized by alternating bands of iron (hematite, Fe2O3) and silica (chert, SiO2). Formed when our atmosphere was devoid of oxygen.",
+          "age":"Approximately 2 billion years old.",
+          "type":"Sedimentary (chemical)",
+          "name":"Banded Iron Formation"
+       },
+       {
+          "cords":{"lat":46.559192,"lng":-87.409062},
+          "iconImage":"icons/rockIcon.png",
+          "markerImage":"/images/rock/bell_creek_gneiss_2.jpg",
+          "description":"Evidence of a diabase dike",
+          "age":"Unknown",
+          "type":"Unknown",
+          "name":" Bell Creek Gneiss"
+       },
+       {
+          "cords":{"lat":46.559160,"lng":-87.408984},
+          "iconImage":"icons/rockIcon.png",
+          "markerImage":"/images/rock/kona_dolomite_2.jpg",
+          "description":"From the Linberg quarry located between Marquette and Negaunee. Interlaminated beds of quartzite and carbonate. Originally deposited in a mid-depth to shallow sea environment as a chemical sedimentary deposit. Some specimens are often interbedded with slate and/or stromatolites.",
+          "age":"Approximately 2.2 billion years old.",
+          "type":"Sedimentary/Metamorphic - banded",
+          "name":"Kona Dolomite"
+       },
+       {
+          "cords":{"lat":46.559221,"lng":-87.409146},
+          "iconImage":"icons/rockIcon.png",
+          "markerImage":"/images/rock/jacobsville_sandstone_pathway.jpg",
+          "description":"Part of the Bayfield Group. Deposited in nearshore environments rich in quartz and iron. Jacobsville sandstone in the Western U.P. (e.g. Keweenwaw-Ontonongan) was deposited on top of the mid-continental rift (basalt/conglomerate) deposits. The Bayfield Group was deposited between 540 million years and 1.1 billion years ago. The red and white staining is a result of redox processes affecting iron within sandstone where Fe II or Fe III exist in reduced and oxic conditions, respectively.",
+          "age":"Between 540 million years and 1.1 billion years ago.",
+          "type":"Sedimentary",
+          "name":"Jacobsville Sandstone"
+       }
+    ]
+ }
