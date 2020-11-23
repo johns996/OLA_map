@@ -6,7 +6,7 @@
             "type":"Grass",
             "cords":{"lat":46.559380,"lng":-87.409278},
             "iconImage":"icons/grassIcon.png",
-            "markerImage":"/images/grass/switchgrass_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/grass/switchgrass_origin.jpg",
             "link":"https://plants.usda.gov/factsheet/pdf/fs_pavi2.pdf",
             "description":"Clump-forming, warm-season grass with open, lacy sprays with small seeds. Panicum virgatum L., switchgrass, is native to all of the United States except California and the Pacific Northwest. It is a perennial sod-forming grass that grows 3 to 5 feet tall and can be distinguished from other warm-season grasses, even when plants are young, by the white patch of hair at the point where the leaf attaches to the stem."
          }

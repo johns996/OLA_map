@@ -6,7 +6,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559194,"lng":-87.409167},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/herb/black_eyed_susan_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/herb/black_eyed_susan_origin.jpg",
             "description":"Rudbeckia hirta, commonly called black-eyed Susan, is a North American flowering plant in the sunflower family, native to Eastern and Central North America and naturalized in the Western part of the continent as well as in China.",
             "link":"https://plants.usda.gov/factsheet/pdf/fs_ruhi2.pdf"
          },
@@ -16,7 +16,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559306,"lng":-87.409389},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/herb/orange_tiger_lily_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/herb/orange_tiger_lily_origin.jpg",
             "link":"https://www.illinoiswildflowers.info/weeds/plants/tiger_lily.html ",
             "description":"Tiger Lily flowers resemble those of the native Michigan Lily (Lilium michiganense) but the leaves are distinctly different, and Tiger Lily has the unique bulbets in the leaf axils. An early historical garden introduction, it is not as aggressive as other gardening icons that are making their way into natural habitats, such as Orange Day Lily (Hemerocallis fulva), though it is apparently more likely to naturalize in wetter than drier habitats, as it has in the eastern U.S. Persistent or not—time will tell—it is neither an aesthetic nor ecological replacement for native lilies."
          },
@@ -26,7 +26,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559250,"lng":-87.409306},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/herb/common_elderberry_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/herb/common_elderberry_origin.jpg",
             "link":"https://www.wildflower.org/plants/result.php?id_plant=sanic4",
             "description":"This native North American plant is a deciduous suckering shrub that bears large white flowers in the summer and small black berries in drooping clusters in the fall. Also known as the Common Elder, American Elderberry is native to the central and eastern U.S. and southeastern Canada."
          },
@@ -36,7 +36,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559361,"lng":-87.409139},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/herb/bluejacket_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/herb/bluejacket_origin.jpg",
             "link":"https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=r820 ",
             "description":"This is a herbaceous perennial plant about 2-4' tall and mostly unbranched, except toward the apex. The flowers open up during the morning and close by the afternoon in sunny weather, but remain open longer on cloudy days. There is no floral scent. The leaves and stems are reported to be edible – fresh or cooked."
          },
@@ -46,7 +46,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559333,"lng":-87.409167},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/herb/lupine_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/herb/lupine_origin.jpg",
             "link":"https://www.michiganflora.net/species.aspx?id=1327 ",
             "description":"Lupinus perennis L. is in the bean family (Fabaceae) and is an herbaceous perennial, meaning only part of the plant dies at the end of the growing season. The roots stay alive throughout the rest of the year and the plant grows back every spring. Wild lupine flowers can be blue, pink or white. Wild lupine is the only lupine native to Michigan. Wild lupine, or sundial, is the larval host to the threatened karner blue butterfly. The karner blue’s larvae feed solely on wild lupine, so it is vital to increase the density of this plant population. The karner blue butterfly is a federally listed endangered species and is a threatened species in Michigan."
          },
@@ -56,7 +56,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559361,"lng":-87.409083},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/herb/beebalm_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/herb/beebalm_origin.jpg",
             "link":"https://www.wildflower.org/plants/result.php?id_plant=mofi ",
             "description":"Monarda fistulosa, commonly called wild bergamot, is a common Michigan native perennial which occurs statewide in dryish soils on prairies, dry rocky woods and glade margins, unplanted fields and along roads and railroads. A clump-forming, mint family member that grows typically to 2-4' tall."
          },
@@ -66,7 +66,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559365,"lng":-87.409130},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/herb/milkweed_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/herb/milkweed_origin.jpg",
             "link":"https://www.fs.fed.us/wildflowers/plant-of-the-week/asclepias_syriaca.shtml ",
             "description":"The genus name, Asclepias, commemorates Asklepios, the Greek god of medicine. Some of the milkweed species have a history of medicinal use including common milkweed (wart removal and lung diseases). The specific epithet, syriaca, means ‘of Syria’ in reference to Linnaeus's mistaken belief it was from Syria. In the northeast and midwest, it is among the most important food plants for monarch caterpillars (Danaus plexippus)."
          },
@@ -76,7 +76,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559361,"lng":-87.409083},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/herb/purple_coneflower_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/herb/purple_coneflower_origin.jpg",
             "link":"https://www.wildflower.org/plants/result.php?id_plant=ecan2 ",
             "description":"In the early 20th century Echinacea was established as the remedy of choice for cold and flu and was commonly used as an anti-infective until the advent of modern antibiotics. It is now most commonly used as a remedy for viral infections including influenza and the common cold."
          },
@@ -86,7 +86,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559361,"lng":-87.409122},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/herb/lambs_ear_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/herb/lambs_ear_origin.jpg",
             "link":"http://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=p980",
             "description":"Lamb’s-Ears are one of the most popular silver-leaved perennials, used widely for edging along pathways and borders. Plants form a dense clump of soft, felty silver grey leaves. Upright spikes of magenta-pink flowers form in early summer"
          },
@@ -96,7 +96,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559270,"lng":-87.409088},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/herb/hens_and_chicks_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/herb/hens_and_chicks_origin.jpg",
             "link":"https://www.gardeningknowhow.com/ornamental/cacti-succulents/hens-chicks/growing-sempervivum-plants.htm",
             "description":"Sempervivum is a genus of succulent plants in the Crassulaceae family, known as Hens and Chicks. The name comes from the Latin words 'semper', meaning 'always' and 'vivus', menaing 'living"
          },
@@ -106,7 +106,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559330,"lng":-87.409039},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/herb/threadleaf_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/herb/threadleaf_origin.jpg",
             "link":"https://www.wildflower.org/plants/result.php?id_plant=cove5",
             "description":"Coreopsis verticillata are great cut flowers with its unusual narrow tapered foliage. Free flowering-continuously in bloom from early summer into fall. Spreads readily and can be used on a sunny bank, in a naturalized planting, or in a traditional border."
          },
@@ -116,7 +116,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559279,"lng":-87.409111},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/herb/foxglove_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/herb/foxglove_origin.jpg",
             "link":"https://wimastergardener.org/article/common-foxglove-digitalis-purpurea/",
             "description":"Common foxglove, Digitalis purpurea, is a biennial or short-lived herbaceous perennial from Western Europe in the plantain family. It was once the source of the heart stimulants digitoxin or digoxin, digitalin, digitalein, and digitonin, cardiac glycosides used in modern medicine in the drug digitalis."
          },
@@ -126,7 +126,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559139,"lng":-87.409000},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/herb/stella_de_oro_daylily.jpg",
+            "markerImage":"/Webb/OLA_Map/images/herb/stella_de_oro_daylily.jpg",
             "link":"http://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=d160",
             "description":"Stella d'Oro is a fragrant dwarf plant with showy golden yellow blooms, which come in strong early summer and rebloom later in the season. "
          },
@@ -136,7 +136,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559164,"lng":-87.408991},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/herb/shasta_daisy_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/herb/shasta_daisy_origin.jpg",
             "link":"https://hvp.osu.edu/pocketgardener/source/description/le_erbum.html",
             "description":"Leucanthemum x superbum is known for its prominent Summer white floral display above lush dark green foliage, with an overall upright to rounded habit, often used as a focal point or in naturalized mass plantings."
          },
@@ -146,7 +146,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559174,"lng":-87.409057},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/herb/creeping_thyme_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/herb/creeping_thyme_origin.jpg",
             "link":"http://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?kempercode=a294",
             "description":"They are principally grown for the fine texture of the leaves as they spread out to softly blanket the ground, but they also produce flowers of various colors, depending on type. The flowers usually appear late spring and early summer."
          },
@@ -156,7 +156,7 @@
             "type":"Succulent/Flowering Plant",
             "cords":{"lat":46.559227,"lng":-87.409431},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/herb/autumn_joy_sedum_origin",
+            "markerImage":"/Webb/OLA_Map/images/herb/autumn_joy_sedum_origin",
             "link":"https://www.thespruce.com/autumn-joy-sedum-2132607",
             "description":"'Autumn Joy' is a stout, spreading plant with succulent foliage that produces delicate bright-pink flowers on large heads."
          },
@@ -166,7 +166,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559168,"lng":-87.409363},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images//herb/touch_me_not_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images//herb/touch_me_not_origin.jpg",
             "link":"https://www.thespruce.com/shade-tolerant-impatiens-flowers-2132141",
             "description":"Impatiens flowers take their name from the Latin, impatiens, meaning 'impatient'. They are so-called because their ripe seed pods will sometimes burst open from even a light touch (as if they were impatient to open). This characteristic is especially apparent in a relative named 'jewelweed' which is indigenous to eastern North America."
          },
@@ -176,7 +176,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559139,"lng":-87.409194},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/herb/larkspur_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/herb/larkspur_origin.jpg",
             "link":"https://www.almanac.com/plant/delphiniums",
             "description":"Delphiniums are perennials grown for their showy spikes of colorful summer flowers in gorgeous shades of blue, pink, white, and purple."
          },
@@ -186,7 +186,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559194,"lng":-87.409278},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/herb/orange_day_lily_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/herb/orange_day_lily_origin.jpg",
             "link":"https://www.illinoiswildflowers.info/weeds/plants/or_daylily.htm",
             "description":"A cultivated plant from Asia rather freely spreading by rhizomes and tuberous roots to roadsides and dumps. Most or all escaped plants are sterile triploids, including a common double-flowered form, and therefore spread only vegetatively."
          },
@@ -196,7 +196,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559222,"lng":-87.409222},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/herb/marsh_hedge_nettle_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/herb/marsh_hedge_nettle_origin.jpg",
             "link":"https://www.minnesotawildflowers.info/flower/marsh-hedge-nettle",
             "description":"Marsh Hedge Nettle has mostly stalkless leaves and stems with hairs on the surface as well as the angles. Flowers are whorled around the stem, usually in groups of 6, in a spike-like cluster at the top of the stem and at the end of branches arising from leaf axils in the upper plant."
          },
@@ -206,7 +206,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559209,"lng":-87.40896},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/herb/goldenrod_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/herb/goldenrod_origin.jpg",
             "link":"https://www.fs.fed.us/wildflowers/plant-of-the-week/solidago_altissima.shtml",
             "description":"Goldenrod is a member of the Asteraceae, the Sunflower family. goldenrods have two different types of flowers, ray flowers and disk flowers and in turn, these can have male and female parts, or either one or the other. The ray flowers look like petals, but each is actually an individual flower. The disk flowers are at the center of the head, inside the ring of ray flowers."
          },
@@ -216,7 +216,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559105,"lng":-87.409165},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/herb/tickseed_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/herb/tickseed_origin.jpg",
             "link":"https://www.thespruce.com/growing-and-using-coreopsis-in-the-flower-garden-1402839",
             "description":"Their common name, &quot;tickseed,&quot; is supposedly for the seeds&#39; resemblance to ticks. Their daisy-like flowers range in colors from bright yellow and orange to pink and red. Native wildflower to Michigan."
          },
@@ -226,7 +226,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559247,"lng":-87.408964},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/",
+            "markerImage":"/Webb/OLA_Map/images/",
             "link":"https://www.fs.fed.us/wildflowers/plant-of-the-week/achillea_millefolium.shtml",
             "description":"The genus Achillea was named after Achilles, who used plant extracts to treat soldiers’ wounds in the battle of Troy. The name milfoil comes from its Latin name “millefolium” meaning “a thousand leaves”."
          },
@@ -236,7 +236,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559275,"lng":-87.408954},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/",
+            "markerImage":"/Webb/OLA_Map/images/",
             "link":"https://www.wildflower.org/plants/result.php?id_plant=lisp",
             "description":"Liatris belongs to the aster family, with each flower head having only fluffy disk flowers (resembling &quot;blazing stars&quot;) and no ray flowers. The feathery flower heads of liatris give rise to another common name of gayfeather."
          },
@@ -246,7 +246,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559320,"lng":-87.408978},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/",
+            "markerImage":"/Webb/OLA_Map/images/",
             "link":"https://www.wildflower.org/plants/result.php?id_plant=BAAU",
             "description":"This native prairie plant bears spikes of pea-shaped indigo blue flowers, resembling Lupines. They last for 3-4 weeks and attract butterflies, bees and hummingbirds."
          },
@@ -256,7 +256,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559332,"lng":-87.409045},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/",
+            "markerImage":"/Webb/OLA_Map/images/",
             "link":"https://wimastergardener.org/article/chives-allium-schoenoprasum/",
             "description":"Garden chives grow in dense clumps, both the leaves and flowers are edible."
          },
@@ -266,7 +266,7 @@
             "type":"Flowering Plant",
             "cords":{"lat":46.559304,"lng":-87.409040},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/",
+            "markerImage":"/Webb/OLA_Map/images/",
             "link":"https://www.wildflower.org/plants/result.php?id_plant=AGUR",
             "description":"Agastache, from the Greek agan (much) and stachys (ear of grain), refers to the flower clusters. The spikes, short corolla lobes, and protruding stamens are distinctive."
          },
@@ -276,7 +276,7 @@
             "type":"Grass",
             "cords":{"lat":46.559380,"lng":-87.409278},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/grass/switchgrass_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/grass/switchgrass_origin.jpg",
             "link":"https://plants.usda.gov/factsheet/pdf/fs_pavi2.pdf",
             "description":"Clump-forming, warm-season grass with open, lacy sprays with small seeds. Panicum virgatum L., switchgrass, is native to all of the United States except California and the Pacific Northwest. It is a perennial sod-forming grass that grows 3 to 5 feet tall and can be distinguished from other warm-season grasses, even when plants are young, by the white patch of hair at the point where the leaf attaches to the stem."
          },
@@ -286,7 +286,7 @@
             "type":"Tree",
             "cords":{"lat":46.559222,"lng":-87.408972},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/tree/prunus_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/tree/prunus_origin.jpg",
             "description":"Prunus is a genus of trees and shrubs, which includes the fruits plums, cherries, peaches, nectarines, apricots, and almonds. Native to the northern temperate regions. Many members of the genus are widely cultivated for their fruit and for decorative purposes.",
             "link":"https://michiganflora.net/genus.aspx?id=Prunus"
          },
@@ -296,7 +296,7 @@
             "type":"Tree",
             "cords":{"lat":46.559167,"lng":-87.409083},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/tree/maple_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/tree/maple_origin.jpg",
             "link":"https://www.fs.fed.us/database/feis/plants/tree/acesac/all.html ",
             "description":"Large tree with rounded, dense crown and striking, multicolored foliage in autumn. Bark (Tough outer covering of trunks or stems of trees, shrubs, and vines.) is smooth in youth, becoming quite shaggy with age. Its straight, central trunk; wide-spreading branches; and pointed crown are all attractive landscape characteristics but are less noted than the species’ brilliant red, yellow and orange fall foliage. Each tree yields between 5 and 60 gallons of sap per year; about 32 gallons of sap make 1 gallon of syrup or 4 1/2 pounds of sugar. One of the best of the larger shade trees. It is susceptible to salt."
          },
@@ -306,7 +306,7 @@
             "type":"Tree",
             "cords":{"lat":46.559111,"lng":-87.409111},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/tree/pawpaw_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/tree/pawpaw_origin.jpg",
             "link":"http://www.uky.edu/hort/Pawpaw",
             "description":"Pawpaw grows in thickets in the forest understory and along woodland edges. It is the native plant that produces the largest edible fruit in North America."
          },
@@ -316,7 +316,7 @@
             "type":"Tree",
             "cords":{"lat":46.559111,"lng":-87.409139},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/tree/apple_tree_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/tree/apple_tree_origin.jpg",
             "link":"https://www.mortonarb.org/trees-plants/tree-plant-descriptions/crabapple-cultivars ",
             "description":"Crabapples are versatile, small, ornamental trees used in the urban landscape. Crabapples bloom in spring, usually in May, bearing flowers that vary a great deal in color, size, fragrance, and visual appeal."   
          },
@@ -326,7 +326,7 @@
             "type":"Tree",
             "cords":{"lat":46.559139,"lng":-87.409278},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/tree/norway_maple_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/tree/norway_maple_origin.jpg",
             "link":"https://www.mortonarb.org/trees-plants/tree-plant-descriptions/norway-maple-not-recommended ",
             "description":"A hardy and vigorous growing tree that can withstand all the indignities of being planted next to a road, as well as extreme heat and cold, droughts, car exhaust fumes, and road salt near their roots. Norway maples have invasive traits that enable them to spread aggressively. Norway maple is known for its tolerance of urban conditions, but it often becomes a weedy plant through self-seeding." 
          },
@@ -336,7 +336,7 @@
             "type":"Tree",
             "cords":{"lat":46.559306,"lng":-87.409333},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/tree/norway_maple_2_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/tree/norway_maple_2_origin.jpg",
             "link":"https://www.mortonarb.org/trees-plants/tree-plant-descriptions/norway-maple-not-recommended ",
             "description":"A hardy and vigorous growing tree that can withstand all the indignities of being planted next to a road, as well as extreme heat and cold, droughts, car exhaust fumes, and road salt near their roots. Norway maples have invasive traits that enable them to spread aggressively. Norway maple is known for its tolerance of urban conditions, but it often becomes a weedy plant through self-seeding."
          },
@@ -346,7 +346,7 @@
             "type":"Tree",
             "cords":{"lat":46.559222,"lng":-87.409194},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/tree/norway_maple_3_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/tree/norway_maple_3_origin.jpg",
             "link":"https://www.mortonarb.org/trees-plants/tree-plant-descriptions/norway-maple-not-recommended ",
             "description":"A hardy and vigorous growing tree that can withstand all the indignities of being planted next to a road, as well as extreme heat and cold, droughts, car exhaust fumes, and road salt near their roots. Norway maples have invasive traits that enable them to spread aggressively. Norway maple is known for its tolerance of urban conditions, but it often becomes a weedy plant through self-seeding."
          },
@@ -356,7 +356,7 @@
             "type":"Tree",
             "cords":{"lat":46.559278,"lng":-87.409222},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/tree/wild_sweet_cherry_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/tree/wild_sweet_cherry_origin.jpg",
             "link":"https://plants.ces.ncsu.edu/plants/prunus-avium/",
             "description":"Although no specific mention has been seen for this species, it belongs to a genus where most, if not all members of the genus produce hydrogen cyanide, a poison that gives almonds their characteristic flavour. This toxin is found mainly in the leaves and seed and is readily detected by its bitter taste. It is usually present in too small a quantity to do any harm but any very bitter seed or fruit should not be eaten."
          },
@@ -366,7 +366,7 @@
             "type":"Tree ",
             "cords":{"lat":46.559340,"lng":-87.409197},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/tree/white_oak_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/tree/white_oak_origin.jpg",
             "link":"https://www.fs.fed.us/database/feis/plants/tree/quealb/all.html",
             "description":"The classic eastern oak, with wide spreading branches and a rounded crown, the trunk irregularly divided into spreading, often horizontal, stout branches. Northern white oak is an imposing, deciduous tree, 80-100 ft. tall, with a straight trunk and a wide (when open-grown) crown. Large, coarse, horizontal limbs are picturesque. Catkins appear just before or with the appearance of new leaves. The round-lobed leaves turn burgundy in fall. Dried leaves remain into winter."
          },
@@ -376,7 +376,7 @@
             "type":"Tree",
             "cords":{"lat":46.559345,"lng":-87.409060},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/tree/red_maple_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/tree/red_maple_origin.jpg",
             "link":"https://www.fs.fed.us/database/feis/plants/tree/acesac/all.html ",
             "description":"Large tree with rounded, dense crown and striking, multicolored foliage in autumn. Bark (Tough outer covering of trunks or stems of trees, shrubs, and vines.) is smooth in youth, becoming quite shaggy with age. Its straight, central trunk; wide-spreading branches; and pointed crown are all attractive landscape characteristics but are less noted than the species’ brilliant red, yellow and orange fall foliage. Each tree yields between 5 and 60 gallons of sap per year; about 32 gallons of sap make 1 gallon of syrup or 4 1/2 pounds of sugar. One of the best of the larger shade trees. It is susceptible to salt."
          },
@@ -386,7 +386,7 @@
             "type":"Shrub",
             "cords":{"lat":46.559306,"lng":-87.409278},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/shrub/round_leaf_dogwood_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/shrub/round_leaf_dogwood_origin.jpg",
             "link":"https://www.minnesotawildflowers.info/shrub/round-leaved-dogwood ",
             "description":"Dogwoods are distinguished from other flowering shrubs by the clusters of small, 4-petaled white flowers and opposite (except for 1 species) leaves that are toothless and have prominent, arching, lateral veins."
          },
@@ -396,7 +396,7 @@
             "type":"Shrub",
             "cords":{"lat":46.559333,"lng":-87.409167},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/shrub/common_ninebark_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/shrub/common_ninebark_origin.jpg",
             "link":"https://www.mortonarb.org/trees-plants/tree-plant-descriptions/common-ninebark ",
             "description":"Atlantic ninebark offers spiraea-like flowers, attractive and persistent fruit pods, arching branches, yellow fall color, and exfoliating bark. Atlantic Ninebark is fast-growing, insect and disease resistant, and drought-tolerant."
          },
@@ -406,7 +406,7 @@
             "type":"Shrub",
             "cords":{"lat":46.559280,"lng":-87.409088},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/shrub/lilac_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/shrub/lilac_origin.jpg",
             "link":"https://www.hedgesonline.co.uk/deciduous-shrubs-and-hedges/lilac-hedging.html",
             "description":"The common lilac is native to the Balkan Peninsula, where it still grows on rocky hills to this day. This species of hedging plant does well in the full sun and partial shade."
          },
@@ -416,7 +416,7 @@
             "type":"Shrub",
             "cords":{"lat":46.559279,"lng":-87.409111},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/shrub/creeping_juniper_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/shrub/creeping_juniper_origin.jpg",
             "link":"https://www.wildflower.org/plants/result.php?id_plant=juho2 ",
             "description":"Juniper is a coniferous plant of the Cypress family. They can be recognized by their needle shaped leaves, which turn scaly as the plant matures. Juniper trees have characteristic blue-colored berries at the ends of their branches. All juniper types produce cones."
          },
@@ -426,7 +426,7 @@
             "type":"Shrub",
             "cords":{"lat":46.559169,"lng":-87.409390},
             "iconImage":"icons/plantIcon.png",
-            "markerImage":"/images/shrub/japanese_yew_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/shrub/japanese_yew_origin.jpg",
             "link":"https://www.thespruce.com/japanese-yews-and-english-yew-bushes-2132068",
             "description":"The oil derived from yew bushes, taxol, is used for treating breast and ovarian cancer, but all parts of yew bushes are poisonous to animals and humans (except for the fleshy red berry)."
          }

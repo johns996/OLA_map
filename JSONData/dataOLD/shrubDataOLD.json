@@ -6,7 +6,7 @@
             "type":"Shrub",
             "cords":{"lat":46.559306,"lng":-87.409278},
             "iconImage":"icons/shrubIcon.png",
-            "markerImage":"/images/shrub/round_leaf_dogwood_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/shrub/round_leaf_dogwood_origin.jpg",
             "link":"https://www.minnesotawildflowers.info/shrub/round-leaved-dogwood ",
             "description":"Dogwoods are distinguished from other flowering shrubs by the clusters of small, 4-petaled white flowers and opposite (except for 1 species) leaves that are toothless and have prominent, arching, lateral veins."
          },
@@ -16,7 +16,7 @@
             "type":"Shrub",
             "cords":{"lat":46.559333,"lng":-87.409167},
             "iconImage":"icons/shrubIcon.png",
-            "markerImage":"/images/shrub/common_ninebark_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/shrub/common_ninebark_origin.jpg",
             "link":"https://www.mortonarb.org/trees-plants/tree-plant-descriptions/common-ninebark ",
             "description":"Atlantic ninebark offers spiraea-like flowers, attractive and persistent fruit pods, arching branches, yellow fall color, and exfoliating bark. Atlantic Ninebark is fast-growing, insect and disease resistant, and drought-tolerant."
          },
@@ -26,7 +26,7 @@
             "type":"Shrub",
             "cords":{"lat":46.559280,"lng":-87.409088},
             "iconImage":"icons/shrubIcon.png",
-            "markerImage":"/images/shrub/lilac_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/shrub/lilac_origin.jpg",
             "link":"https://www.hedgesonline.co.uk/deciduous-shrubs-and-hedges/lilac-hedging.html",
             "description":"The common lilac is native to the Balkan Peninsula, where it still grows on rocky hills to this day. This species of hedging plant does well in the full sun and partial shade."
          },
@@ -36,7 +36,7 @@
             "type":"Shrub",
             "cords":{"lat":46.559279,"lng":-87.409111},
             "iconImage":"icons/shrubIcon.png",
-            "markerImage":"/images/shrub/creeping_juniper_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/shrub/creeping_juniper_origin.jpg",
             "link":"https://www.wildflower.org/plants/result.php?id_plant=juho2 ",
             "description":"Juniper is a coniferous plant of the Cypress family. They can be recognized by their needle shaped leaves, which turn scaly as the plant matures. Juniper trees have characteristic blue-colored berries at the ends of their branches. All juniper types produce cones."
          },
@@ -46,7 +46,7 @@
             "type":"Shrub",
             "cords":{"lat":46.559169,"lng":-87.409390},
             "iconImage":"icons/shrubIcon.png",
-            "markerImage":"/images/shrub/japanese_yew_origin.jpg",
+            "markerImage":"/Webb/OLA_Map/images/shrub/japanese_yew_origin.jpg",
             "link":"https://www.thespruce.com/japanese-yews-and-english-yew-bushes-2132068",
             "description":"The oil derived from yew bushes, taxol, is used for treating breast and ovarian cancer, but all parts of yew bushes are poisonous to animals and humans (except for the fleshy red berry)."
          }
